@@ -8,6 +8,8 @@ export default function Dashboard() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [weather, setWeather] = useState(null);
   const [logs, setLogs] = useState([]);
+  const [quote, setQuote] = useState(null);
+  const [currentModels, setCurrentModels] = useState({ onq: 'qwen/qwen3.5-plus', arlanne: 'qwen/qwen3.5-27b' });
 
   useEffect(() => {
     fetchData();
@@ -16,37 +18,32 @@ export default function Dashboard() {
     
     // Fetch weather
     fetchWeather();
-    const weatherInterval = setInterval(fetchWeather, 300000); // Update every 5 min
+    const weatherInterval = setInterval(fetchWeather, 300000);
     
     // Fetch logs
     fetchLogs();
-    const logsInterval = setInterval(fetchLogs, 10000); // Update every 10 sec
+    const logsInterval = setInterval(fetchLogs, 10000);
+    
+    // Fetch quote
+    fetchQuote();
+    const quoteInterval = setInterval(fetchQuote, 30000); // New quote every 30 sec
     
     return () => {
       clearInterval(timeInterval);
       clearInterval(interval);
       clearInterval(weatherInterval);
       clearInterval(logsInterval);
+      clearInterval(quoteInterval);
     };
   }, []);
 
-  async function fetchWeather() {
+  async function fetchQuote() {
     try {
-      const res = await fetch('/api/weather');
+      const res = await fetch('/api/quote');
       const result = await res.json();
-      setWeather(result);
+      setQuote(result);
     } catch (error) {
-      console.error('Weather fetch failed:', error);
-    }
-  }
-
-  async function fetchLogs() {
-    try {
-      const res = await fetch('/api/logs');
-      const result = await res.json();
-      setLogs(result);
-    } catch (error) {
-      console.error('Logs fetch failed:', error);
+      console.error('Quote fetch failed:', error);
     }
   }
 
@@ -99,6 +96,12 @@ export default function Dashboard() {
           <div style={styles.date}>{currentTime.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</div>
           <div style={styles.time}>{currentTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}</div>
         </div>
+        {quote && (
+          <div style={styles.quoteBox}>
+            <div style={styles.quoteText}>"{quote.text}"</div>
+            <div style={styles.quoteAuthor}>— {quote.author}</div>
+          </div>
+        )}
       </div>
 
       <div style={styles.grid}>
@@ -135,29 +138,24 @@ export default function Dashboard() {
         <div style={styles.card}>
           <h2 style={styles.cardTitle}>🧠 Active Models</h2>
           <div style={styles.stat}>
-            <div style={styles.statLabel}>OnQ Primary</div>
-            <div style={styles.statValue}>qwen/qwen3.5-plus</div>
-            <div style={styles.statDetail}>OpenRouter</div>
-          </div>
-          <div style={styles.stat}>
-            <div style={styles.statLabel}>OnQ Fallback #1</div>
-            <div style={styles.statValue}>qwen/qwen3.5-27b</div>
-            <div style={styles.statDetail}>OpenRouter</div>
-          </div>
-          <div style={styles.stat}>
-            <div style={styles.statLabel}>OnQ Fallback #2</div>
-            <div style={styles.statValue}>claude-sonnet-3.7</div>
-            <div style={styles.statDetail}>OpenRouter</div>
+            <div style={styles.statLabel}>OnQ (Primary)</div>
+            <div style={styles.statValue}>{currentModels.onq}</div>
+            <div style={styles.statDetail}>OpenRouter • Main operator</div>
           </div>
           <div style={styles.stat}>
             <div style={styles.statLabel}>Arlanne</div>
-            <div style={styles.statValue}>qwen/qwen3.5-27b</div>
-            <div style={styles.statDetail}>OpenRouter (isolated)</div>
+            <div style={styles.statValue}>{currentModels.arlanne}</div>
+            <div style={styles.statDetail}>OpenRouter • PM assistant (isolated)</div>
           </div>
           <div style={styles.stat}>
             <div style={styles.statLabel}>OpenClaw</div>
             <div style={styles.statValue}>qwen/qwen3.5-9b</div>
-            <div style={styles.statDetail}>OpenRouter (cheap/fast)</div>
+            <div style={styles.statDetail}>OpenRouter • Execution (cheap/fast)</div>
+          </div>
+          <hr style={{margin: '15px 0', border: 'none', borderTop: '1px solid #eee'}}/>
+          <div style={styles.statLabel} style={{fontWeight: 'bold', marginBottom: '10px'}}>Fallback Chain:</div>
+          <div style={{fontSize: '0.85em', color: '#666'}}>
+            <div>① qwen/qwen3.5-27b → ② claude-sonnet-3.7</div>
           </div>
         </div>
 
@@ -457,6 +455,24 @@ const styles = {
     fontSize: '2em',
     fontWeight: 'bold',
     letterSpacing: '2px',
+  },
+  quoteBox: {
+    marginTop: '20px',
+    padding: '20px',
+    background: 'rgba(255,255,255,0.15)',
+    borderRadius: '10px',
+    textAlign: 'center',
+    fontStyle: 'italic',
+  },
+  quoteText: {
+    fontSize: '1.1em',
+    marginBottom: '8px',
+    color: 'white',
+    lineHeight: '1.4',
+  },
+  quoteAuthor: {
+    fontSize: '0.9em',
+    color: 'rgba(255,255,255,0.8)',
   },
   buttonGrid: {
     display: 'grid',
