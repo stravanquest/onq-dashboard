@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { getLogPriorityColor, getLogIcon } from '../lib/logHelpers';
 
 export default function Dashboard() {
   const [data, setData] = useState(null);
@@ -6,6 +7,7 @@ export default function Dashboard() {
   const [restartStatus, setRestartStatus] = useState(null);
   const [currentTime, setCurrentTime] = useState(new Date());
   const [weather, setWeather] = useState(null);
+  const [logs, setLogs] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -16,10 +18,15 @@ export default function Dashboard() {
     fetchWeather();
     const weatherInterval = setInterval(fetchWeather, 300000); // Update every 5 min
     
+    // Fetch logs
+    fetchLogs();
+    const logsInterval = setInterval(fetchLogs, 10000); // Update every 10 sec
+    
     return () => {
       clearInterval(timeInterval);
       clearInterval(interval);
       clearInterval(weatherInterval);
+      clearInterval(logsInterval);
     };
   }, []);
 
@@ -30,6 +37,16 @@ export default function Dashboard() {
       setWeather(result);
     } catch (error) {
       console.error('Weather fetch failed:', error);
+    }
+  }
+
+  async function fetchLogs() {
+    try {
+      const res = await fetch('/api/logs');
+      const result = await res.json();
+      setLogs(result);
+    } catch (error) {
+      console.error('Logs fetch failed:', error);
     }
   }
 
@@ -223,6 +240,28 @@ export default function Dashboard() {
           ) : (
             <div style={styles.statLabel}>Loading weather...</div>
           )}
+        </div>
+
+        {/* Logs Card - NEW! */}
+        <div style={{...styles.card, gridColumn: '1 / -1'}}>
+          <h2 style={styles.cardTitle}>📋 Activity Log</h2>
+          <div style={styles.logsContainer}>
+            {logs.length > 0 ? (
+              logs.map((log, idx) => (
+                <div key={idx} style={{
+                  ...styles.logEntry,
+                  borderLeft: `4px solid ${getLogPriorityColor(log.priority || log.type)}`
+                }}>
+                  <div style={styles.logTime}>{log.time}</div>
+                  <div style={styles.logMessage}>
+                    {getLogIcon(log.type)} {log.message || `${log.provider} call: ${log.tokens.toLocaleString()} tokens`}
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div style={styles.statLabel}>Loading logs...</div>
+            )}
+          </div>
         </div>
 
         {/* Backup Card */}
@@ -460,5 +499,32 @@ const styles = {
     background: '#f5f5f5',
     fontWeight: '500',
     transition: 'all 0.2s',
+  },
+  logsContainer: {
+    maxHeight: '400px',
+    overflowY: 'auto',
+    background: '#f8f9fa',
+    borderRadius: '8px',
+    padding: '15px',
+  },
+  logEntry: {
+    display: 'flex',
+    gap: '15px',
+    padding: '10px',
+    marginBottom: '8px',
+    background: 'white',
+    borderRadius: '6px',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+  },
+  logTime: {
+    fontSize: '0.85em',
+    color: '#666',
+    minWidth: '70px',
+    fontWeight: '500',
+  },
+  logMessage: {
+    flex: 1,
+    fontSize: '0.9em',
+    color: '#333',
   },
 };
