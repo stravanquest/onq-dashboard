@@ -1,5 +1,32 @@
 import { useEffect, useState } from 'react';
-import { getLogPriorityColor, getLogIcon } from '../lib/logHelpers';
+
+function getLogPriorityColor(type) {
+  const colors = {
+    'success': '#28a745',
+    'error': '#dc3545',
+    'warning': '#ffc107',
+    'info': '#17a2b8',
+    'backup': '#28a745',
+    'gateway': '#17a2b8',
+    'api_call': '#667eea',
+    'system': '#6c757d',
+  };
+  return colors[type] || '#667eea';
+}
+
+function getLogIcon(type) {
+  const icons = {
+    'success': '✅',
+    'error': '❌',
+    'warning': '⚠️',
+    'info': 'ℹ️',
+    'backup': '🛡️',
+    'gateway': '🔄',
+    'api_call': '📡',
+    'system': '🤖',
+  };
+  return icons[type] || '📝';
+}
 
 export default function Dashboard() {
   const [data, setData] = useState(null);
@@ -9,7 +36,7 @@ export default function Dashboard() {
   const [weather, setWeather] = useState(null);
   const [logs, setLogs] = useState([]);
   const [quote, setQuote] = useState(null);
-  const [currentModels, setCurrentModels] = useState({ onq: 'qwen/qwen3.5-plus', arlanne: 'qwen/qwen3.5-27b' });
+  const [currentModels] = useState({ onq: 'qwen/qwen3.5-plus', arlanne: 'qwen/qwen3.5-27b' });
 
   useEffect(() => {
     fetchData();
@@ -244,15 +271,15 @@ export default function Dashboard() {
         <div style={{...styles.card, gridColumn: '1 / -1'}}>
           <h2 style={styles.cardTitle}>📋 Activity Log</h2>
           <div style={styles.logsContainer}>
-            {logs.length > 0 ? (
+            {logs && logs.length > 0 ? (
               logs.map((log, idx) => (
                 <div key={idx} style={{
                   ...styles.logEntry,
-                  borderLeft: `4px solid ${getLogPriorityColor(log.priority || log.type)}`
+                  borderLeft: `4px solid ${getLogPriorityColor(log.priority || log.type || 'info')}`
                 }}>
                   <div style={styles.logTime}>{log.time}</div>
                   <div style={styles.logMessage}>
-                    {getLogIcon(log.type)} {log.message || `${log.provider} call: ${log.tokens.toLocaleString()} tokens`}
+                    {getLogIcon(log.type || 'system')} {log.message || `${log.provider || 'Unknown'} call: ${log.tokens ? log.tokens.toLocaleString() : '0'} tokens`}
                   </div>
                 </div>
               ))
