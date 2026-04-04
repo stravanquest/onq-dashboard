@@ -4,12 +4,34 @@ export default function Dashboard() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [restartStatus, setRestartStatus] = useState(null);
+  const [currentTime, setCurrentTime] = useState(new Date());
+  const [weather, setWeather] = useState(null);
 
   useEffect(() => {
     fetchData();
+    const timeInterval = setInterval(() => setCurrentTime(new Date()), 1000);
     const interval = setInterval(fetchData, 30000);
-    return () => clearInterval(interval);
+    
+    // Fetch weather
+    fetchWeather();
+    const weatherInterval = setInterval(fetchWeather, 300000); // Update every 5 min
+    
+    return () => {
+      clearInterval(timeInterval);
+      clearInterval(interval);
+      clearInterval(weatherInterval);
+    };
   }, []);
+
+  async function fetchWeather() {
+    try {
+      const res = await fetch('/api/weather');
+      const result = await res.json();
+      setWeather(result);
+    } catch (error) {
+      console.error('Weather fetch failed:', error);
+    }
+  }
 
   async function fetchData() {
     try {
@@ -56,6 +78,10 @@ export default function Dashboard() {
       <div style={styles.header}>
         <h1>🤖 OnQ Control Center</h1>
         <p>Chris's AI Operations Dashboard</p>
+        <div style={styles.dateTime}>
+          <div style={styles.date}>{currentTime.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</div>
+          <div style={styles.time}>{currentTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}</div>
+        </div>
       </div>
 
       <div style={styles.grid}>
@@ -170,6 +196,33 @@ export default function Dashboard() {
               <div style={styles.statusMessage}>{restartStatus}</div>
             )}
           </div>
+        </div>
+
+        {/* Weather Card - NEW! */}
+        <div style={styles.card}>
+          <h2 style={styles.cardTitle}>🌤️ Weather</h2>
+          {weather ? (
+            <>
+              <div style={styles.stat}>
+                <div style={styles.statLabel}>Location</div>
+                <div style={styles.statValue}>{weather.location}</div>
+              </div>
+              <div style={styles.stat}>
+                <div style={styles.statLabel}>Current</div>
+                <div style={styles.statValue}>{weather.condition}</div>
+              </div>
+              <div style={styles.stat}>
+                <div style={styles.statLabel}>Temperature</div>
+                <div style={styles.statValue}>{weather.temp}°F</div>
+              </div>
+              <div style={styles.stat}>
+                <div style={styles.statLabel}>Wind</div>
+                <div style={styles.statValue}>{weather.windspeed} mph</div>
+              </div>
+            </>
+          ) : (
+            <div style={styles.statLabel}>Loading weather...</div>
+          )}
         </div>
 
         {/* Backup Card */}
@@ -348,6 +401,23 @@ const styles = {
     opacity: '0.8',
     fontSize: '0.9em',
     marginTop: '20px',
+  },
+  dateTime: {
+    textAlign: 'center',
+    color: 'white',
+    marginTop: '15px',
+    padding: '15px',
+    background: 'rgba(255,255,255,0.1)',
+    borderRadius: '10px',
+  },
+  date: {
+    fontSize: '1.1em',
+    marginBottom: '5px',
+  },
+  time: {
+    fontSize: '2em',
+    fontWeight: 'bold',
+    letterSpacing: '2px',
   },
   buttonGrid: {
     display: 'grid',
