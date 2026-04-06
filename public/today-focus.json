@@ -1,35 +1,18 @@
 {
-  "updated_at": "2026-04-06T12:00:00Z",
+  "updated_at": "2026-04-06T12:00:00-04:00",
+  "source": "OnQ daily log + session scan",
   "items": [
     {
-      "id": "book-creative",
-      "content": "Book creative direction LOCKED: 'The future of Project Management is not less PM — it is a better PM.'",
-      "status": "done",
-      "note": "A Smart PMP Bot — warm, practical, not hype"
+      "title": "Priority 1",
+      "detail": "PMP manuscript: need Chris to upload before AI pass can start"
     },
     {
-      "id": "book-next",
-      "content": "Book Phase 1 Step 2: Voice Guide + AI Throughline document",
-      "status": "next",
-      "note": "I create this — no handoff needed"
+      "title": "Priority 2",
+      "detail": "Phase D prep: accounting workflow, Arlanne bot scaffold"
     },
     {
-      "id": "book-sample",
-      "content": "Book Phase 1 Step 3: Sample chapter rewrite (pick + run pipeline)",
-      "status": "pending",
-      "note": "After Voice Guide is done"
-    },
-    {
-      "id": "p2-hubspot",
-      "content": "VisionQuest HubSpot CRM setup",
-      "status": "pending",
-      "note": "p2 in Stravan's Work"
-    },
-    {
-      "id": "phase-d-prep",
-      "content": "Phase D prep: accounting workflow spec",
-      "status": "pending",
-      "note": "Days 18-30 work"
+      "title": "Priority 3",
+      "detail": "VisionQuest HubSpot CRM setup (in Stravan's Work)"
     }
   ]
 }

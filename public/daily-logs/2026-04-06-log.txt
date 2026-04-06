@@ -42,7 +42,15 @@ Phase B (Quill Build) — DONE
 - OpenClaw = OnQ's exclusive hands. Chris talks to OnQ only, never OpenClaw directly.
 - Built onq-worker skill: bounded tasks (INPUT + OUTPUT + TIME LIMIT + CHECKPOINT)
 - Updated OpenClaw SOUL.md: done = file at OUTPUT path, no wandering
-- Todoist: use REST API (token at ~/.config/todoist/config.json), CLI is buggy for modify
+- Todoist CLI crash: Go panic in label formatter — use cache.json or web UI
+- Scoped all @OnQuest tasks: 25 scopeable items identified, sent scope review to Chris
+- Saved Gmail app password path to memory: /Users/visualriot/.config/himalaya/.gmail_app_password
+- Book: creative direction locked, master plan updated, ready for Phase 1 Step 2
+- Todoist: scrubbed "stravan" from all task names, replaced with "OnQuest"
+- Dashboard: deployed 3x today, all stable
+- Usage.json: added conversation estimate, OpenAI embed estimate, removed Gemini/Claude
+- Arlanne gateway confirmed running: ai.hermes.gateway-4d464c41, separate from OnQ
+- Super Whisper, Last bottle, Unstoppable Domains, NO KYC exchange: all identified as scopeable tasks
 - All "stravan" in task names → "OnQuest" (3 tasks fixed)
 - Todoist cache at ~/.cache/todoist/cache.json can be read directly when CLI crashes
 
@@ -63,7 +71,7 @@ Checkpoints:
 - 09:00 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | leave it as is Completed: I've created the LinkedIn post about PMP + AI in Project Management | I've only created the post for PMP + AI in Project Management so far | Quick honest status: I was wiring in your embed key, made a bad write to config
 
 [12:00]
-- 
+- 12:00 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | q. I want useage limits at warnings at 65%. and swith at 80% if you can add dollar cost estimate to token u... Completed: Deployed | Done | Here's where we stand on today's conversation: Done: - LinkedIn packages (3 complete, emailed to c@cinman
 
 [15:00]
 - 
@@ -72,6 +80,9 @@ Checkpoints:
 - 
 
 Decision/asset event captures (ad hoc)
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
 - Time: 09:00
   Event: Checkpoint 09:00 session snapshot
   Why it matters: Captures conversation context and milestones for recall.
