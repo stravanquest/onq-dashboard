@@ -1,0 +1,49 @@
+OnQ Daily Memory Log
+Date: 2026-04-03
+Timezone: America/New_York
+
+1) DONE (what got done)
+- Backup system fixed and test-validated.
+- OAuth daily health check scheduled.
+- Bank report delivered and emailed.
+- Arlanne isolation groundwork started.
+- McDuck, Doc, and Ledger charters tightened.
+
+2) DECISIONS (firm calls made)
+- Todoist scope uses Onquest project + Onquest labels (retire old stravan rule).
+- Weekend log cadence is active.
+- Atlas should be defined before promotion.
+- R&D loop deferred (not dead).
+- Black-VR access rule: OnQ only connects to Black-VR when Chris explicitly asks in-session.
+
+3) NEXT ACTIONS (top 3)
+- Set and maintain log checkpoints for today.
+- Run full backup before Arlanne/OpenClaw work.
+- Define OpenClaw wiring test plan with current raw state.
+
+4) BLOCKERS / RISKS
+- Arlanne and OpenClaw changes are high risk without fresh backup.
+- OpenClaw is raw: no skills, no Telegram bot.
+
+Checkpoint captures
+[09:00]
+- Daily memory reminder ran.
+
+[12:00]
+- 
+
+[15:00]
+- 
+
+[19:30]
+- 
+
+Decision/asset event captures (ad hoc)
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

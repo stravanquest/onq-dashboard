@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-04-06T09:25:00-04:00",
+  "current_model": "minimax/minimax-m2.7",
+  "provider": "openrouter",
+  "fallbacks": ["qwen/qwen3.5-plus-02-15", "openai-codex/gpt-4o"],
+  "window_hours": 8,
+  "warning_threshold": 55,
+  "switch_threshold": 85
+}

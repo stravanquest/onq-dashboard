@@ -1,0 +1,77 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-04
+Day: Saturday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: good morning | so a few things | do we have https://github.com/vercel-labs/agent-browser. installed. and should we Completed: Perfect — done | Done | I can see the issue — the automatic fallback is NOT fully configured yet
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: good morning | so a few things | do we have https://github.com/vercel-labs/agent-browser. installed. and should we Completed: Perfect — done | Done | I can see the issue — the automatic fallback is NOT fully configured yet
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: good morning | so a few things | you have sherlock defined right Completed: Done | I can see the issue — the automatic fallback is NOT fully configured yet | Let me confirm actual live state right now
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: good morning | so a few things | you have sherlock defined right Completed: Done | I can see the issue — the automatic fallback is NOT fully configured yet | Let me confirm actual live state right now
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:22
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:16
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 11:09
+  Event: Manual complete backup run (OnQ + Arlanne)
+  Why it matters: Fresh recovery points created and mirrored before further changes.
+- Time: 11:09
+  Event: OnQ backup artifacts created
+  Why it matters: /Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-04_11-08-43.tar.gz and Dropbox mirror confirmed.
+- Time: 11:09
+  Event: Arlanne backup completed with script warning
+  Why it matters: Backup succeeded, but script emitted '/Users/visualriot/.arlanne/scripts/arlanne_daily_backup.sh: line 44: EOF: command not found' and should be cleaned up.
+
+- Time: 14:42
+  Event: Apple Notes routine sync wired
+  Why it matters: Daily log runner now auto-creates "OnQ Daily Decisions YYYY-MM-DD" note in OnQuest folder.
+- Time: 14:45
+  Event: Manual complete backup run (OnQ + PMP)
+  Why it matters: Fresh local and Dropbox recovery points created before end-of-day cooldown.
+- Time: 14:45
+  Event: OnQ backup artifact created
+  Why it matters: /Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-04_14-43-34.tar.gz (SHA256 logged in manifest).
+- Time: 14:45
+  Event: PMP backup artifact created
+  Why it matters: arlanne_smartpm_backup_2026-04-04_14-45-02 created successfully.
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

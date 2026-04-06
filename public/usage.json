@@ -1,0 +1,86 @@
+{
+  "updated_at": "2026-04-06T09:29:46-04:00",
+  "warning_threshold": 55,
+  "switch_threshold": 85,
+  "window_hours": 8,
+  "providers": [
+    {
+      "key": "openai-codex",
+      "label": "OpenAI Codex",
+      "window_hours": 8,
+      "limit": 500000,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    },
+    {
+      "key": "openrouter",
+      "label": "OpenRouter",
+      "window_hours": 8,
+      "limit": 1000000,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    },
+    {
+      "key": "deepseek",
+      "label": "DeepSeek",
+      "window_hours": 8,
+      "limit": 100000,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    },
+    {
+      "key": "anthropic",
+      "label": "Anthropic (Claude)",
+      "window_hours": 8,
+      "limit": 10000,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    },
+    {
+      "key": "google",
+      "label": "Google (Gemini)",
+      "window_hours": 8,
+      "limit": 1500,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    },
+    {
+      "key": "brave",
+      "label": "Brave Search",
+      "window_hours": 8,
+      "limit": 2000,
+      "metric": "tokens",
+      "messages": 0,
+      "tokens": 0,
+      "percent": 0.0,
+      "status": "ok",
+      "cost": 0.0
+    }
+  ],
+  "totals": {
+    "tokens": 0,
+    "cost": 0.0
+  },
+  "last_switch": null,
+  "source": "usage_tracker_state.json (v3.0 - 8hr windows + dollar tracking)"
+}

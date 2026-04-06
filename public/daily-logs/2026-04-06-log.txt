@@ -1,0 +1,85 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-06
+Day: Monday
+Phase A (Control Layer) — DONE
+Phase B (Quill Build) — DONE
+
+1) DONE (what got done)
+- Dashboard: thresholds 65/80%, dollar costs, usage reset, model card fixed, quote daily
+- Email: Gmail SMTP working, correct addresses locked (c@cinman.com, chris@visualriot.com)
+- Memory: 30-day plan locked, email rule locked
+- OpenClaw SOUL updated: done = file at OUTPUT path, bounded tasks
+- Built onq-worker skill: INPUT + OUTPUT + TIME LIMIT + CHECKPOINT
+- Scrubbed "stravan" from all 3 task names → "OnQuest"
+- BOOK CREATIVE DIRECTION LOCKED (Apr 6):
+  Big idea: "The future of Project Management is not less PM — it is a better PM."
+  Working title: A Smart PMP Bot
+  Theme: AI makes PMs jobs better, NOT replacing them
+  Voice: warm, friendly, conversational, 7th grade level, not hype
+  Audience: all levels of Project Managers
+  Format: practical and accessible, not academic
+- Updated book master plan with creative direction
+
+2) DECISIONS (firm calls made)
+- OnQ Todoist scope is #Stravan's Work only (not Inbox/business/Personal)
+- chrisinman@me.com never used again
+- Dashboard refresh = zero tokens (static Vercel app)
+
+3) NEXT ACTIONS (top 3)
+- PMP manuscript: need Chris to upload before AI pass can start
+- Phase D prep: accounting workflow, Arlanne bot scaffold
+- VisionQuest HubSpot CRM setup (in Stravan's Work)
+
+4) BLOCKERS / RISKS
+- PMP manuscript not uploaded — can't run AI positioning pass
+- Todoist CLI modify is buggy (Go panic, silently fails) — use REST API next time
+
+5) SYSTEM UPDATES
+- OpenClaw = OnQ's exclusive hands. Chris talks to OnQ only, never OpenClaw directly.
+- Built onq-worker skill: bounded tasks (INPUT + OUTPUT + TIME LIMIT + CHECKPOINT)
+- Updated OpenClaw SOUL.md: done = file at OUTPUT path, no wandering
+- Todoist: use REST API (token at ~/.config/todoist/config.json), CLI is buggy for modify
+- All "stravan" in task names → "OnQuest" (3 tasks fixed)
+- Todoist cache at ~/.cache/todoist/cache.json can be read directly when CLI crashes
+
+6) BOOK PROJECT STATUS
+- 23K words, 11 chapters restructured (Apr 5 by OpenClaw)
+- Files at /from chris/Book CLEANED/
+- Backup at /from Onquest/backups/book-manuscript-backup-2026-04-05_12-42-46/
+- Blueprint at /from Onquest/book-project/book-blueprint-v1-2026-04-05.txt
+- Master plan at /from Onquest/book-project/onq-book-master-plan-v1-2026-04-05.txt
+- BLOCKED: needs creative direction from Chris (title, audience, big idea, voice prefs)
+
+7) PHASE C STATUS
+- LinkedIn: 3 articles done, pipeline locked
+- PMP book: blocked, waiting on Chris creative direction
+
+Checkpoints:
+[09:00]
+- 09:00 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | leave it as is Completed: I've created the LinkedIn post about PMP + AI in Project Management | I've only created the post for PMP + AI in Project Management so far | Quick honest status: I was wiring in your embed key, made a bad write to config
+
+[12:00]
+- 
+
+[15:00]
+- 
+
+[19:30]
+- 
+
+Decision/asset event captures (ad hoc)
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
