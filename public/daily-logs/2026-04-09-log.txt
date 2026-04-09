@@ -1,0 +1,49 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-09
+Day: Thursday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Q good morning Obsidian Vault Operating Rule You have access to my Obsidian vault. Use it as a structured k... | did you see the new rules for Obsidian. those are for both icloud and Dropbox. did they make sense and do y... | yes. lets restructure dont you think. this structure seems clean to me. What do you think. I want your opin... Completed: iCloud restructure done | Here's the current state summary: VAULT: Done Both iCloud and Dropbox vaults restructured to the numbered s...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: I am going to run this cd /Users/visualriot/.hermes/hermes-agent && npm audit fix cd /Users/visualriot/.her... | do we have failbacks on mode;s | yes. but we do not want claude at all as a failback Completed: Done | Here's the result: OAuth token is live and valid, but missing model | Here's the current state summary: VAULT: Done Both iCloud and Dropbox vaults restructured to the numbered s...
+
+[15:00]
+- 
+
+[19:30]
+- 
+
+Decision/asset event captures (ad hoc)
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-06T12:00:00-04:00",
+  "updated_at": "2026-04-09T12:00:01-04:00",
   "source": "OnQ daily log + session scan",
   "items": [
     {
       "title": "Priority 1",
-      "detail": "PMP manuscript: need Chris to upload before AI pass can start"
+      "detail": "Keep daily log checkpoints current and decision-useful"
     },
     {
       "title": "Priority 2",
-      "detail": "Phase D prep: accounting workflow, Arlanne bot scaffold"
+      "detail": "Review OpenAI + fallback health and keep gateway stable"
     },
     {
       "title": "Priority 3",
-      "detail": "VisionQuest HubSpot CRM setup (in Stravan's Work)"
+      "detail": "Advance permanent sub-agent operations (Sherlock, Quill, McDuck, Dante)"
     }
   ]
 }

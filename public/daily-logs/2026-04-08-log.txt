@@ -1,0 +1,132 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-08
+Day: Wednesday
+1) DONE (what got done)
+- Vault migrated: ~/Documents/OnQ moved to Obsidian iCloud folder (/Users/visualriot/Library/Mobile Documents/iCloud~md~obsidian/Documents/OnQ/) so iPhone can access
+- Gateway cleaned: killed duplicate processes (PIDs 780 + 768), single clean instance running
+- Model reverted to minimax/minimax-m2.7 (was accidentally set to claude-sonnet-3-7)
+- Agent configs locked: Sherlock and Pascal were missing minimax fallback — fixed
+- AGENTS.md updated: Pascal model corrected from gpt-5.4 to gpt-5.3-codex to match charter
+- Memory updated with vault path and Pascal model fix
+- Health check passed
+
+2) DECISIONS (firm calls made)
+- Vault path is now the Obsidian iCloud folder (not ~/Documents/OnQ)
+- All 7 agents have minimax/m2.7 fallback locked
+- Dropbox remains as backup mirror, iCloud as primary for mobile access
+
+3) NEXT ACTIONS (top 3)
+- Test Obsidian vault on iPhone (should be visible now)
+- Morning list from today still not addressed — needs attention tomorrow
+- Book manuscript Phase 1 restructure still pending
+
+4) BLOCKERS / RISKS
+- Terminal still has occasional hang issues (killed duplicate gateway, seemed to fix it)
+- Dropbox still slow/Cloud-only mode on Black VR
+
+Checkpoint captures
+[09:00]
+- User sent morning list items: "I want you to read this. I do not want you to do anything. just years and then file away. maybe also put..."
+
+[12:00]
+- Worked on vault migration and duplicate gateway processes
+
+[15:00]
+- Claude Opus incident: "It cost as much as I sent in one day"
+- Killed duplicate gateway processes
+- Started model investigation
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: what model are you on? | ok. so Claude opus just killed us. | and you saved it it is under 5 ai agents Completed: Updated | Done | Model is confirmed: minimax/minimax-m2
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00 — Vault migration complete, iPhone accessible
+- Time: 16:00 — Model reverted to minimax/m2.7
+- Time: 17:00 — Agent configs locked
+
+End-of-day synthesis
+- What moved forward most: Infrastructure cleaned up, vault mobile access working, agents locked
+- What slipped and why: All substantive work slipped — book, morning list, Todoist, morning text review all untouched. Technical issues consumed entire session.
+- Carry-forward priorities for tomorrow: Morning list review, book manuscript, morning text from Chris
+
+====================================
+EVENING REPORT — 2026-04-08
+====================================
+
+TODAY'S COMPLETED WORK:
+1. Vault migrated to Obsidian iCloud folder — iPhone access now works
+2. Gateway cleaned up — single process, stable
+3. Model reverted to minimax/m2.7
+4. Agent configs locked with minimax fallback
+5. Memory updated
+
+AGENTS STATUS (LOCKED):
+- Quill (writing): sonnet-4.6 → minimax/m2.7 fallback
+- Sherlock (research): sonnet-4.6 → minimax/m2.7 fallback
+- McDuck (finance): gpt-5.4 → minimax/m2.7 fallback
+- Dante (adversarial): deepseek-v3.2 → minimax/m2.7 fallback
+- Pascal (builder): gpt-5.3-codex → minimax/m2.7 fallback
+- Doc (health): gpt-5.4-mini → minimax/m2.7 fallback
+- Ledger (accounting): gpt-5.4 → minimax/m2.7 fallback
+
+PENDING — NOT DONE TODAY:
+1. Book manuscript Phase 1 restructure (30-day plan Phase C)
+2. Morning text from Chris — read and file (from 09:00 checkpoint)
+3. Todoist task review — morning list items
+4. Morning list (the actual list Chris sent this morning)
+5. Atlas definition (deferred — needs decision first)
+
+FROM 30-DAY PLAN (Phase C priorities):
+- LinkedIn long-form engine: 0 progress today
+- PMP book advancement: 0 progress today
+- Content pipeline: not touched
+
+FROM TODOIST (top items):
+- blood pressure check AM/PM
+- State of florida taxes
+- Check all accounts and bills
+- teeth - oral B program MORNING
+- Go to TD BANK
+
+TOMORROW'S TOP 3:
+1. Address morning list + morning text from Chris
+2. Book manuscript work (Phase 1)
+3. Todoist review
+
+Atlas: Deferred. Not promoted until defined.
+
+---
+## MORNING LIST ITEMS (Chris) — Save for Tomorrow
+## NO ACTION — Discussion only
+
+1. Dashboard — discuss
+2. Uploaded thing — discuss (what was uploaded?)
+3. Dropbox — killing Chris, discuss solutions
+4. Opus 4.6 conversation pickup from yesterday
+5. Systems, goals, projects — where we are at
+6. Multiple agents — ways to move forward
+7. Models, memory, and tools — discuss
+8. Todoist
+9. Cron job self-healing retry system
+10. Ledger
+
+---
+## MORNING LIST ITEMS — ACTUAL STATUS
+
+1. Dashboard — DISCUSSED: health check run, fixes applied
+2. Uploaded thing — DONE: Solo Operator Playbook read and filed to Obsidian
+3. Dropbox — DISCUSSED: migration done, still slow
+4. Opus 4.6 — DONE: model reverted to minimax/m2.7, cause identified
+5. Systems/goals/projects — TOUCHED: reviewed 30-day plan and goals doc
+6. Multiple agents — DONE: locked all 7 agents with minimax fallback
+7. Models, memory, tools — DONE: model locked, memory updated
+8. Todoist — TOUCHED: checked cache, reviewed top items
+9. Cron self-healing — NOT DISCUSSED
+10. Ledger — TOUCHED: charter and rules confirmed

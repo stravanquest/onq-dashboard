@@ -1,0 +1,58 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-07
+Day: Tuesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Hey good morning Q | You did a great job yesterday | So first we need to create a few more slash commands we need to check your health. I want to look over a fe... Completed: Fixed | SmartPMP is back up and the skill is updated | Here's the summary of what I changed and what happens next: What I updated in onqessentialbackup
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Hey good morning Q | You did a great job yesterday | yes lets keep on going Completed: All 12 chapters done | Master manuscript done | Done
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Hey good morning Q | You did a great job yesterday | I wish. I could. 🙂 Completed: Backup done | Done: - Log written — saved to daily-logs/2026-04-07 | Done
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Hey good morning Q | You did a great job yesterday | If I put an External drive on to you r mac that would would as well i guess as a back. right. maybe I will ... Completed: Got it — two tasks created for tomorrow April 8 | Done — one clean task for tomorrow at 12:15 PM: Grant Full Disk Access to Hermes — ONQUEST drive setup Due:... | Memory updated
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 10:37
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

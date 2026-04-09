@@ -1,0 +1,277 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-07
+Day: Tuesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Hey good morning Q | You did a great job yesterday | So first we need to create a few more slash commands we need to check your health. I want to look over a fe... Completed: Fixed | SmartPMP is back up and the skill is updated | Here's the summary of what I changed and what happens next: What I updated in onqessentialbackup
+
+[12:00]
+- 
+
+[15:00]
+- 
+
+[19:30]
+- 
+
+Decision/asset event captures (ad hoc)
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭─────────────────────── Hermes Agent v0.7.0 (2026.4.3) ───────────────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   minimax-m2.7 · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260407_100904_1b299e  autonomous-ai-agents: claude-code, codex,  │
+│                                   hermes-agent, onq-openclaw-...             │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-process...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cronjob-schedule-fallbacks,        │
+│                                   dashboard-usage-tra...                     │
+│                                   email: himalaya                            │
+│                                   finance: ledger-ops, mcduck-finance        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: dogfood, onq-dashboard-debug,     │
+│                                   pdf-checker                                │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, clip, dsp...                      │
+│                                   note-taking: obsidian                      │
+│                                   productivity: google-workspace, linear,    │
+│                                   linkedin-content-pipe...                   │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   ml-paper-writing, polymarke...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   29 tools · 125 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 99 commits behind — run hermes update    │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-07-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+  ┊ 📖 preparing read_file…
+  ┊ 📖 read      /Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-07-log.txt  1.4s
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+The log is largely empty — the structured sections (DONE, DECISIONS, NEXT ACTIONS, BLOCKERS) have no entries, and the only captured activity is the 09:00 checkpoint. Here's the synthesis based on what was actually recorded:
+
+---
+
+End-of-day synthesis
+- What moved forward most:
+  - SmartPMP backup skill was fixed and updated, restoring the Arlanne backup retention script (last night's failure was addressed at the 09:00 checkpoint).
+- What slipped and why:
+  - No other work was logged today. All structured sections (DONE, DECISIONS, NEXT ACTIONS, BLOCKERS) remain blank, suggesting the day was consumed by the morning recovery work and nothing else was formally captured.
+- Carry-forward priorities for tomorrow:
+  - Resume normal logging discipline — fill in all four structured sections at each checkpoint, not just when issues arise.
+  - Investigate why the 12:00, 15:00, and 19:30 checkpoints were not captured (no entries at all).
+
+---
+
+The log is thin today — if there was substantive work beyond the SmartPMP fix, it wasn't recorded. Worth noting to Chris: if he wants richer daily synthesis, the log needs fuller entries even on quiet days.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260407_100904_1b299e
+
+Session:        20260407_100904_1b299e
+Duration:       15s
+Messages:       4 (1 user, 2 tool calls)
+
+
+╭─────────────────────── Hermes Agent v0.7.0 (2026.4.3) ───────────────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   minimax-m2.7 · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260407_102856_ef328d  autonomous-ai-agents: claude-code, codex,  │
+│                                   hermes-agent, onq-openclaw-...             │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-process...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cronjob-schedule-fallbacks,        │
+│                                   dashboard-usage-tra...                     │
+│                                   email: himalaya                            │
+│                                   finance: ledger-ops, mcduck-finance        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: dogfood, onq-dashboard-debug,     │
+│                                   pdf-checker                                │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, clip, dsp...                      │
+│                                   note-taking: obsidian                      │
+│                                   productivity: google-workspace, linear,    │
+│                                   linkedin-content-pipe...                   │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   ml-paper-writing, polymarke...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   29 tools · 125 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 99 commits behind — run hermes update    │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-07-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+  ┊ 📖 preparing read_file…
+  ┊ 📖 read      /Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-07-log.txt  1.5s
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+The log is thin. Here's what I can extract from what's actually there:
+
+**From the 09:00 checkpoint only:**
+- SmartPMP backup skill was fixed and the `onqessentialbackup` skill was updated (the overnight Arlanne backup failure was diagnosed and resolved at the morning session).
+- DONE, DECISIONS, NEXT ACTIONS, and BLOCKERS sections are all blank.
+- The 12:00, 15:00, and 19:30 checkpoint captures are completely empty.
+
+The synthesis block at the bottom of the file was already filled in by a prior agent pass, but it reads as generalized. Here's a tighter version based on the actual log content:
+
+---
+
+```
+End-of-day synthesis
+- What moved forward most:
+  - SmartPMP backup skill was fixed and updated, recovering from last night's Arlanne backup failure (onqessentialbackup skill patched at 09:00 checkpoint).
+- What slipped and why:
+  - No structured work was logged today. All sections (DONE, DECISIONS, NEXT ACTIONS, BLOCKERS) are blank, and the 12:00, 15:00, and 19:30 checkpoints have no entries — the day appears to have been consumed by the morning recovery work with no follow-up capture.
+- Carry-forward priorities for tomorrow:
+  - Fill in all four structured sections at every checkpoint, not just when issues surface.
+  - Investigate why 12:00, 15:00, and 19:30 checkpoints were skipped entirely today.
+```
+
+---
+
+Want me to write this back to the log file? And a separate question — was there actually more work done today that just wasn't captured in the log? If so, tell me what happened and I'll fill it in properly.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260407_102856_ef328d
+
+Session:        20260407_102856_ef328d
+Duration:       21s
+Messages:       4 (1 user, 2 tool calls)

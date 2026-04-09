@@ -74,12 +74,18 @@ Checkpoints:
 - 12:00 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | q. I want useage limits at warnings at 65%. and swith at 80% if you can add dollar cost estimate to token u... Completed: Deployed | Done | Here's where we stand on today's conversation: Done: - LinkedIn packages (3 complete, emailed to c@cinman
 
 [15:00]
-- 
+- 15:00 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | write a log too after this Completed: Voice Guide: done | Done | QR confirmed: https://ppay
 
 [19:30]
-- 
+- 19:30 checkpoint auto-capture User focus: hello | just saying hello. how are we on all of our tasks | so now how do i talk to you in slack Completed: Voice Guide: done | Done | QR confirmed: https://ppay
 
 Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
 - Time: 12:00
   Event: Checkpoint 12:00 session snapshot
   Why it matters: Captures conversation context and milestones for recall.

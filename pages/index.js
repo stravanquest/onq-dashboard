@@ -9,6 +9,7 @@ export default function Dashboard() {
   const [focusUpdatedAt, setFocusUpdatedAt] = useState('');
   const [usage, setUsage] = useState([]);
   const [usageUpdatedAt, setUsageUpdatedAt] = useState('');
+  const [usageStateExists, setUsageStateExists] = useState(true);
   const [usageThresholds, setUsageThresholds] = useState({ warning: 65, switchAt: 80 });
   const [modelInfo, setModelInfo] = useState({ current_model: 'loading...', provider: '', fallbacks: [] });
 
@@ -61,6 +62,7 @@ export default function Dashboard() {
           const usageJson = await usageRes.json();
           setUsage(usageJson.providers || []);
           setUsageUpdatedAt(usageJson.updated_at || '');
+          setUsageStateExists(usageJson.state_file_exists !== false);
           setUsageThresholds({
             warning: usageJson.warning_threshold || 65,
             switchAt: usageJson.switch_threshold || 80,
@@ -118,7 +120,13 @@ export default function Dashboard() {
 
         <div style={s.card}>
           <h2 style={s.cardTitle}>📊 Usage</h2>
-          {usage.length === 0 ? (
+          {!usageStateExists ? (
+            <div>
+              <div style={s.warnBox}>Usage tracker state file is missing. Showing the dashboard honestly instead of fake zeroes.</div>
+              <div style={s.small}>Expected source: ~/.hermes/usage_tracker_state.json</div>
+              <div style={s.small}>Updated: {usageUpdatedAt || 'n/a'}</div>
+            </div>
+          ) : usage.length === 0 ? (
             <div style={s.small}>Usage snapshot unavailable.</div>
           ) : (
             <div>
@@ -233,6 +241,7 @@ const s = {
   ok: { color: '#28a745', padding: '8px 0', fontWeight: 'bold' },
   okInline: { color: '#28a745', fontWeight: 'bold' },
   warn: { color: '#d97706', fontWeight: 'bold' },
+  warnBox: { background: '#fef3c7', color: '#92400e', padding: '12px', borderRadius: '8px', fontWeight: 'bold', border: '1px solid #f59e0b', marginBottom: '10px' },
   critical: { color: '#dc2626', fontWeight: 'bold' },
   usageRow: { borderBottom: '1px solid #f0f0f0', padding: '10px 0' },
   usageHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' },
