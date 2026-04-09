@@ -1,0 +1,42 @@
+{
+  "usage": {
+    "openai-codex": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    },
+    "openrouter": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    },
+    "deepseek": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    },
+    "anthropic": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    },
+    "google": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    },
+    "brave": {
+      "messages": 0,
+      "tokens": 0,
+      "pct": 0.0
+    }
+  },
+  "backups": {},
+  "agents": {
+    "onq": true,
+    "arlanne": true,
+    "openclaw": true
+  },
+  "updated": "2026-04-09T13:04:20.457604",
+  "note": "Legacy compatibility file. Canonical dashboard data lives in usage.json and model-info.json."
+}
