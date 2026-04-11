@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T09:16:12-04:00",
+  "updated_at": "2026-04-11T09:22:45-04:00",
   "source": "/Users/visualriot/.hermes/cron/jobs.json",
   "counts": {
     "total": 9,
@@ -19,9 +19,9 @@
       "schedule_display": "every 15m",
       "enabled": true,
       "last_status": "ok",
-      "last_run_at": "2026-04-11T08:49:15.191679-04:00",
-      "next_run_at": "2026-04-11T09:19:48.646801-04:00",
-      "repeat_completed": 626,
+      "last_run_at": "2026-04-11T09:20:48.621024-04:00",
+      "next_run_at": "2026-04-11T09:35:48.621024-04:00",
+      "repeat_completed": 627,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -29,9 +29,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 4m",
-      "last_run_relative": "27m ago",
-      "next_run_relative": "in 4m"
+      "detail": "next in 13m",
+      "last_run_relative": "2m ago",
+      "next_run_relative": "in 13m"
     },
     {
       "id": "32512d4d79af",
@@ -139,9 +139,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 23h",
-      "last_run_relative": "55m ago",
-      "next_run_relative": "in 23h"
+      "detail": "next in 22h",
+      "last_run_relative": "1h ago",
+      "next_run_relative": "in 22h"
     },
     {
       "id": "eac4cb728daa",
@@ -162,7 +162,7 @@
         "thread_id": null
       },
       "detail": "next in 23h",
-      "last_run_relative": "43m ago",
+      "last_run_relative": "50m ago",
       "next_run_relative": "in 23h"
     },
     {
