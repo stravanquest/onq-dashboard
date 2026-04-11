@@ -1,0 +1,214 @@
+{
+  "updated_at": "2026-04-11T09:16:12-04:00",
+  "source": "/Users/visualriot/.hermes/cron/jobs.json",
+  "counts": {
+    "total": 9,
+    "enabled": 9,
+    "paused": 0,
+    "running": 0,
+    "waiting": 9,
+    "overdue": 0,
+    "failed": 0
+  },
+  "jobs": [
+    {
+      "id": "df23a9de15c8",
+      "name": "Model Usage Tracker + Auto-Switch (30m)",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "every 15m",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-11T08:49:15.191679-04:00",
+      "next_run_at": "2026-04-11T09:19:48.646801-04:00",
+      "repeat_completed": 626,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 4m",
+      "last_run_relative": "27m ago",
+      "next_run_relative": "in 4m"
+    },
+    {
+      "id": "32512d4d79af",
+      "name": "OnQ Email Check (3x daily)",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "0 8,13,18 * * *",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-11T08:02:26.686542-04:00",
+      "next_run_at": "2026-04-11T13:00:00-04:00",
+      "repeat_completed": 10,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 3h",
+      "last_run_relative": "1h ago",
+      "next_run_relative": "in 3h"
+    },
+    {
+      "id": "2cc433006d91",
+      "name": "OnQ Todoist Daily Review + Email",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "0 17 * * *",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-10T17:01:41.423020-04:00",
+      "next_run_at": "2026-04-11T17:00:00-04:00",
+      "repeat_completed": 6,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 7h",
+      "last_run_relative": "16h ago",
+      "next_run_relative": "in 7h"
+    },
+    {
+      "id": "01efc257403a",
+      "name": "Evening daily cron catch-up",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "50 18 * * *",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-10T18:51:03.999330-04:00",
+      "next_run_at": "2026-04-11T18:50:00-04:00",
+      "repeat_completed": 2,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 9h",
+      "last_run_relative": "14h ago",
+      "next_run_relative": "in 9h"
+    },
+    {
+      "id": "73db959ac68a",
+      "name": "OnQ morning health summary",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "0 8 * * *",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-11T08:02:19.095624-04:00",
+      "next_run_at": "2026-04-12T08:00:00-04:00",
+      "repeat_completed": 7,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 22h",
+      "last_run_relative": "1h ago",
+      "next_run_relative": "in 22h"
+    },
+    {
+      "id": "58505980c04e",
+      "name": "Daily OpenAI OAuth health check (recurring)",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "every 1440m",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-11T08:21:16.622094-04:00",
+      "next_run_at": "2026-04-12T08:21:16.622094-04:00",
+      "repeat_completed": 9,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 23h",
+      "last_run_relative": "55m ago",
+      "next_run_relative": "in 23h"
+    },
+    {
+      "id": "eac4cb728daa",
+      "name": "Morning cron catch-up sweep",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "30 8 * * *",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-11T08:32:45.535200-04:00",
+      "next_run_at": "2026-04-12T08:30:00-04:00",
+      "repeat_completed": 3,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 23h",
+      "last_run_relative": "43m ago",
+      "next_run_relative": "in 23h"
+    },
+    {
+      "id": "0923cf6e53f8",
+      "name": "Black-VR DNS/IP tracker (36h)",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "53 11 * * 1,4",
+      "enabled": true,
+      "last_status": "ok",
+      "last_run_at": "2026-04-09T11:53:28.576108-04:00",
+      "next_run_at": "2026-04-13T11:53:00-04:00",
+      "repeat_completed": 4,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 2d",
+      "last_run_relative": "1d ago",
+      "next_run_relative": "in 2d"
+    },
+    {
+      "id": "32fb1e9a78cb",
+      "name": "Ledger intake nudge (2x monthly)",
+      "status": "waiting",
+      "status_label": "Waiting to run",
+      "schedule_display": "every 21600m",
+      "enabled": true,
+      "last_status": null,
+      "last_run_at": null,
+      "next_run_at": "2026-04-18T10:05:23.114529-04:00",
+      "repeat_completed": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8243784928",
+        "chat_name": "C Inman",
+        "thread_id": null
+      },
+      "detail": "next in 7d",
+      "last_run_relative": "n/a",
+      "next_run_relative": "in 7d"
+    }
+  ],
+  "note": "Derived from ~/.hermes/cron/jobs.json"
+}
