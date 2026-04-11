@@ -1,33 +1,40 @@
 {
-  "updated_at": "2026-04-11T10:02:55.319916",
+  "updated_at": "2026-04-11T10:05:57.310654",
   "gateway": {
     "status": "running",
     "home": "/Users/visualriot/.hermes",
     "pid": 1604,
     "pids": [
-      1604
+      1604,
+      1621,
+      60767
     ],
-    "count": 1,
+    "count": 3,
     "label": "gateway",
     "onq": {
       "status": "running",
       "pid": 1604,
       "pids": [
-        1604
+        1604,
+        1621,
+        60767
+      ],
+      "count": 3,
+      "label": "gateway",
+      "home": "/Users/visualriot/.hermes",
+      "note": "duplicate gateway processes detected"
+    },
+    "arlanne": {
+      "status": "running",
+      "pid": 1621,
+      "pids": [
+        1621
       ],
       "count": 1,
       "label": "gateway",
-      "home": "/Users/visualriot/.hermes"
-    },
-    "arlanne": {
-      "status": "stopped",
-      "pid": null,
-      "pids": [],
-      "count": 0,
-      "label": "gateway",
       "home": "/Users/visualriot/.hermes-arlanne"
     },
-    "note": null
+    "note": "duplicate gateway processes detected"
   },
   "launchd": {
     "com.onq.daily-synthesis": {
