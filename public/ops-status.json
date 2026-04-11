@@ -1,0 +1,86 @@
+{
+  "updated_at": "2026-04-11T09:36:43.665078",
+  "launchd": {
+    "com.onq.daily-synthesis": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.daily-synthesis"
+    },
+    "com.onq.essential-backup": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.essential-backup"
+    },
+    "com.onq.dailylog.cp0900": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.dailylog.cp0900"
+    },
+    "com.onq.dailylog.cp1200": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.dailylog.cp1200"
+    },
+    "com.onq.dailylog.cp1500": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.dailylog.cp1500"
+    },
+    "com.onq.dailylog.cp1930": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.dailylog.cp1930"
+    },
+    "com.onq.dailylog.bootstrap": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.dailylog.bootstrap"
+    },
+    "com.onq.doctorfix.daily": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.doctorfix.daily"
+    },
+    "com.onq.arlanne-backup": {
+      "pid": null,
+      "last_exit": null,
+      "label": "com.onq.arlanne-backup"
+    }
+  },
+  "backups": {
+    "essential": {
+      "local_root": "/Users/visualriot/OnQ_backups",
+      "dropbox_root": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/onq",
+      "local_latest": {
+        "path": "/Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-11_01-00-00.tar.gz",
+        "name": "onq_essential_backup_2026-04-11_01-00-00.tar.gz",
+        "mtime": "2026-04-11T01:03:03.997787",
+        "size": 500532871
+      },
+      "dropbox_latest": {
+        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/onq/onq_essential_backup_2026-04-11_01-00-00.tar.gz",
+        "name": "onq_essential_backup_2026-04-11_01-00-00.tar.gz",
+        "mtime": "2026-04-11T01:03:03.997787",
+        "size": 500532871
+      },
+      "status": "ok"
+    },
+    "arlanne": {
+      "local_root": "/Users/visualriot/OnQ_backups/arlanne",
+      "dropbox_root": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/arlanne",
+      "local_latest": {
+        "path": "/Users/visualriot/OnQ_backups/arlanne/arlanne_smartpm_backup_2026-04-05_05-12-01.tar.gz",
+        "name": "arlanne_smartpm_backup_2026-04-05_05-12-01.tar.gz",
+        "mtime": "2026-04-05T05:12:03.110994",
+        "size": 13385842
+      },
+      "dropbox_latest": {
+        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/arlanne/arlanne_smartpm_backup_2026-04-05_05-12-01.tar.gz",
+        "name": "arlanne_smartpm_backup_2026-04-05_05-12-01.tar.gz",
+        "mtime": "2026-04-05T05:12:03.129329",
+        "size": 13385842
+      },
+      "status": "ok"
+    }
+  }
+}
