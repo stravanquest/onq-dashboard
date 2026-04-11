@@ -1,12 +1,14 @@
 {
-  "updated_at": "2026-04-11T09:44:42.381366",
+  "updated_at": "2026-04-11T09:46:28.232173",
   "gateway": {
-    "status": "stopped",
-    "pid": null,
-    "pids": [],
-    "count": 0,
+    "status": "running",
+    "pid": 1604,
+    "pids": [
+      1604
+    ],
+    "count": 1,
     "label": "gateway",
-    "home": "/Users/visualriot/.hermes"
+    "home": "openclaw-gateway"
   },
   "launchd": {
     "com.onq.daily-synthesis": {
