@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T09:49:52-04:00",
+  "updated_at": "2026-04-11T10:01:18-04:00",
   "source": "/Users/visualriot/.hermes/cron/jobs.json",
   "counts": {
     "total": 9,
@@ -19,9 +19,9 @@
       "schedule_display": "every 15m",
       "enabled": true,
       "last_status": "ok",
-      "last_run_at": "2026-04-11T09:35:59.640168-04:00",
-      "next_run_at": "2026-04-11T09:50:59.640168-04:00",
-      "repeat_completed": 628,
+      "last_run_at": "2026-04-11T09:51:11.461888-04:00",
+      "next_run_at": "2026-04-11T10:06:11.461888-04:00",
+      "repeat_completed": 629,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -29,9 +29,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 1m",
-      "last_run_relative": "14m ago",
-      "next_run_relative": "in 1m"
+      "detail": "next in 5m",
+      "last_run_relative": "10m ago",
+      "next_run_relative": "in 5m"
     },
     {
       "id": "32512d4d79af",
@@ -51,9 +51,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 3h",
+      "detail": "next in 2h",
       "last_run_relative": "1h ago",
-      "next_run_relative": "in 3h"
+      "next_run_relative": "in 2h"
     },
     {
       "id": "2cc433006d91",
@@ -73,9 +73,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 7h",
-      "last_run_relative": "16h ago",
-      "next_run_relative": "in 7h"
+      "detail": "next in 6h",
+      "last_run_relative": "17h ago",
+      "next_run_relative": "in 6h"
     },
     {
       "id": "01efc257403a",
@@ -95,9 +95,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 9h",
-      "last_run_relative": "14h ago",
-      "next_run_relative": "in 9h"
+      "detail": "next in 8h",
+      "last_run_relative": "15h ago",
+      "next_run_relative": "in 8h"
     },
     {
       "id": "73db959ac68a",
@@ -117,9 +117,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 22h",
+      "detail": "next in 21h",
       "last_run_relative": "1h ago",
-      "next_run_relative": "in 22h"
+      "next_run_relative": "in 21h"
     },
     {
       "id": "58505980c04e",
