@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-11T10:05:57-04:00",
+  "updated_at": "2026-04-13T19:39:09-04:00",
   "warning_threshold": 65,
   "switch_threshold": 80,
   "window_hours": 8,
-  "state_file_exists": false,
+  "state_file_exists": true,
   "providers": [
     {
       "key": "openai-codex",
@@ -83,5 +83,5 @@
     "cost": 0.0
   },
   "last_switch": null,
-  "source": "usage_tracker_state.json (v3.0 - 8hr windows + dollar tracking) [missing]"
+  "source": "usage_tracker_state.json (v3.0 - 8hr windows + dollar tracking)"
 }

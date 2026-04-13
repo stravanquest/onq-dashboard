@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-04-11T10:05:57.310654",
+  "updated_at": "2026-04-13T19:39:09.281081",
   "gateway": {
     "status": "running",
     "home": "/Users/visualriot/.hermes",
-    "pid": 1604,
+    "pid": 1621,
     "pids": [
-      1604,
       1621,
-      60767
+      28276,
+      77052
     ],
     "count": 3,
     "label": "gateway",
     "onq": {
       "status": "running",
-      "pid": 1604,
+      "pid": 1621,
       "pids": [
-        1604,
         1621,
-        60767
+        28276,
+        77052
       ],
       "count": 3,
       "label": "gateway",
@@ -88,16 +88,16 @@
       "local_root": "/Users/visualriot/OnQ_backups",
       "dropbox_root": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/onq",
       "local_latest": {
-        "path": "/Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-11_01-00-00.tar.gz",
-        "name": "onq_essential_backup_2026-04-11_01-00-00.tar.gz",
-        "mtime": "2026-04-11T01:03:03.997787",
-        "size": 500532871
+        "path": "/Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-13_01-00-00.tar.gz",
+        "name": "onq_essential_backup_2026-04-13_01-00-00.tar.gz",
+        "mtime": "2026-04-13T01:03:24.507163",
+        "size": 552696295
       },
       "dropbox_latest": {
-        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/onq/onq_essential_backup_2026-04-11_01-00-00.tar.gz",
-        "name": "onq_essential_backup_2026-04-11_01-00-00.tar.gz",
-        "mtime": "2026-04-11T01:03:03.997787",
-        "size": 500532871
+        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/onq/onq_essential_backup_2026-04-13_01-00-00.tar.gz",
+        "name": "onq_essential_backup_2026-04-13_01-00-00.tar.gz",
+        "mtime": "2026-04-13T01:03:24.507163",
+        "size": 552696295
       },
       "status": "ok"
     },
