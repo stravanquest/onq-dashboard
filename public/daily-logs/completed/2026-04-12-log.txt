@@ -1,0 +1,163 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-12
+Day: Sunday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Reply with exactly: OAUTHOK | Morning Q | Me not having coffee. :-) Completed: Saved and updated the cron-catchup-guards skill | Updated the existing model-usage-tracking-system skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Morning Q | Me not having coffee. :-) | :-). No. Just check your health. Complete check and make crons ran. Completed: Done | I’m swapping in the updated ByteRover note so it stays under the limit | That status line is a little weird, so I’m checking the plugin code to make sure we’re not pretending local...
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Morning Q | Me not having coffee. :-) | you are not hindered in anyway from this? Completed: Done | Updated | Updated the todoist-cli-workarounds skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: [SYSTEM: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically deliv... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... | Morning Q Completed: Done | Updated the existing todoist-daily-review skill | Updated
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭───────────── Hermes Agent v0.8.0 (2026.4.8) · upstream 0d0d27d4 ─────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260412_200006_5aa009  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-assembl...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-script-path-allowlist...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: brokerage-position-extraction,    │
+│                                   ledger-ops, mcdu...                        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: dogfood, onq-dashboard-debug,     │
+│                                   pdf-checker, qnap...                       │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, byterover...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-permanent-soul-backup,            │
+│                                   onq-session-2026-04-09                     │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   hermes-memory-provider-revi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 146 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 132 commits behind — run hermes update   │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-12-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+End-of-day synthesis
+- What moved forward most:
+  - You tightened the automation stack by saving and updating the cron-catchup-guards skill, then updating the model-usage-tracking-system skill.
+  - You kept the day’s ops clean by confirming health, checking that crons ran, and capturing the 09:00, 12:00, 15:00, and 19:30 checkpoints.
+  - You also refreshed operational knowledge by swapping in the updated ByteRover note and updating the todoist-cli-workarounds and todoist-daily-review skills.
+- What slipped and why:
+  - No specific planned task was logged as missed, but the day’s available work stayed centered on maintenance and checkpoint hygiene rather than new project output.
+- Carry-forward priorities for tomorrow:
+  - Finish any remaining cleanup around the ByteRover note/status behavior so the memory limit issue stays under control.
+  - Keep validating cron health and daily checkpoint capture so the automation layer stays reliable.
+  - Push forward the highest-value pending work beyond maintenance, since today skewed hard toward keeping the machine honest.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260412_200006_5aa009
+
+Session:        20260412_200006_5aa009
+Duration:       30s
+Messages:       4 (1 user, 2 tool calls)

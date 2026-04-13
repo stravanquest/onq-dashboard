@@ -27,12 +27,18 @@ Checkpoint captures
 - 12:00 checkpoint auto-capture User focus: I am going to run this cd /Users/visualriot/.hermes/hermes-agent && npm audit fix cd /Users/visualriot/.her... | do we have failbacks on mode;s | yes. but we do not want claude at all as a failback Completed: Done | Here's the result: OAuth token is live and valid, but missing model | Here's the current state summary: VAULT: Done Both iCloud and Dropbox vaults restructured to the numbered s...
 
 [15:00]
-- 
+- 15:00 checkpoint auto-capture User focus: I am going to run this cd /Users/visualriot/.hermes/hermes-agent && npm audit fix cd /Users/visualriot/.her... | do we have failbacks on mode;s | ok Completed: The scheduled backup flow now includes the Obsidian status note | Fixed | I’ve confirmed the first item and the uploaded article
 
 [19:30]
-- 
+- 19:30 checkpoint auto-capture User focus: I am going to run this cd /Users/visualriot/.hermes/hermes-agent && npm audit fix cd /Users/visualriot/.her... | do we have failbacks on mode;s | is mem0 local as well? Completed: Done | I’ve confirmed the source list exists as a named item, but not the actual contents yet | I’m looking for McDuck’s own config or daily report references next, because the list may live there instea...
 
 Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
 - Time: 12:00
   Event: Checkpoint 12:00 session snapshot
   Why it matters: Captures conversation context and milestones for recall.

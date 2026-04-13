@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-04-10T13:08:33-04:00",
+  "source_backup": "/Users/visualriot/OnQ_backups/onq_essential_backup_2026-04-10_08-48-03.tar.gz",
+  "source_backup_mtime": "2026-04-10T08:52:09-04:00",
+  "state_file_exists": false,
+  "providers": [
+    {
+      "key": "openai-codex",
+      "label": "openai-codex",
+      "lifetime_tokens": 527579,
+      "lifetime_messages": 27,
+      "history_entries": 27,
+      "first_seen": "2026-04-04T13:21:00.268520",
+      "last_seen": "2026-04-04T13:28:58.088667",
+      "last_seen_age_note": null
+    }
+  ],
+  "note": "Lifetime usage snapshot from the latest backup. Use as historical memory, not live current usage."
+}

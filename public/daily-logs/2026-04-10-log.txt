@@ -1,0 +1,58 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-10
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | yes. check and fix all. and then I want to talk to you about the linked in project next and following that ... Completed: Done
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | ledger Completed: Done | Updated the existing skill | Updated an existing skill
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | keep going. I LOVE IT!!!!!!!!! and this works well on mobile? Completed: Done | Updated a reusable skill with the mobile-responsive lesson and verification checklist | Updated a relevant skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | I am going to read about the memory thing I think that it might help us. Completed: Done | Fixed | Saved and updated the dashboard usage tracker skill with what we learned about the iPhone stale-cache probl...
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 08:24
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

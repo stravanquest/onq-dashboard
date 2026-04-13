@@ -1,0 +1,163 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-11
+Day: Saturday
+1) DONE (what got done)
+- Saved the Ledger intake form note to Obsidian and the daily log so it is ready for computer time.
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | The duel gate way issue Completed: Updated the cron-catchup-guards skill with the useful bit we learned: in this environment the reliable inte...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | We made them permanent. Please check memories we had them all ready Completed: Done on the dashboard side | Done | Updated the backup healthcheck skill with two lessons we learned the hard way: - If you create or edit a no...
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | foot Completed: Done on the dashboard side | Done | Updated the backup healthcheck skill with two lessons we learned the hard way: - If you create or edit a no...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | foot Completed: Done | Updated a relevant skill: todoist-cli-workarounds | Done on the dashboard side
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭───────────── Hermes Agent v0.8.0 (2026.4.8) · upstream 39cd5708 ─────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260411_200009_2d5a23  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-assembl...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-script-path-allowlist...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: ledger-ops, mcduck-finance        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: dogfood, onq-dashboard-debug,     │
+│                                   pdf-checker, qnap...                       │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, clip, dsp...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-permanent-soul-backup,            │
+│                                   onq-session-2026-04-09                     │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   hermes-memory-provider-revi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 143 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 65 commits behind — run hermes update    │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-11-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+End-of-day synthesis
+- What moved forward most:
+  - The Ledger intake form note was saved to Obsidian and the daily log, so the onboarding workflow is ready for computer time.
+  - The dashboard-side work was completed, and the related backup healthcheck and todoist-cli workaround skills were updated with the lessons learned today.
+  - The gateway duplication issue was identified and turned into a permanent guardrail by updating the cron-catchup-guards skill and preserving the session context in checkpoints.
+- What slipped and why:
+  - No explicit next-action list was filled in, because the day got absorbed by fixing gateway, dashboard, and backup-related issues instead of forward planning.
+  - The day’s planned follow-through appears to have stalled at the capture stage, because the log shows repeated checkpoint snapshots but no confirmed task execution beyond the tooling and skill updates.
+- Carry-forward priorities for tomorrow:
+  - Turn the saved Ledger intake form into the next concrete working session and start the actual intake process.
+  - Review the gateway and backup guardrails once more to make sure the permanent fixes really hold under normal use.
+  - Rebuild a clear top-three action list early in the day so the work does not stay trapped in checkpoint-land, where dreams go to politely sit down.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260411_200009_2d5a23
+
+Session:        20260411_200009_2d5a23
+Duration:       14s
+Messages:       4 (1 user, 2 tool calls)

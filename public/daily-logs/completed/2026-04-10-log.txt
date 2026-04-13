@@ -1,0 +1,168 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-10
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | yes. check and fix all. and then I want to talk to you about the linked in project next and following that ... Completed: Done
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | ledger Completed: Done | Updated the existing skill | Updated an existing skill
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | keep going. I LOVE IT!!!!!!!!! and this works well on mobile? Completed: Done | Updated a reusable skill with the mobile-responsive lesson and verification checklist | Updated a relevant skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: good morning Q | I got these messages this am Overall RED — 2026-04-10 08:02:47 EDT; launchd jobs are loaded, but today’s da... | I am going to read about the memory thing I think that it might help us. Completed: Done | Fixed | Saved and updated the dashboard usage tracker skill with what we learned about the iPhone stale-cache probl...
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 08:24
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭───────────── Hermes Agent v0.8.0 (2026.4.8) · upstream dab5ec82 ─────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260410_200007_6b876d  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-assembl...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-script-path-allowlist...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: ledger-ops, mcduck-finance        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: dogfood, onq-dashboard-debug,     │
+│                                   pdf-checker, qnap...                       │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, clip, dsp...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-permanent-soul-backup,            │
+│                                   onq-session-2026-04-09                     │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher, llm-wiki,    │
+│                                   ml-paper-writing,...                       │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 141 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 42 commits behind — run hermes update    │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-10-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+End-of-day synthesis
+- What moved forward most:
+  - The red-state dashboard and launchd cleanup work got pushed forward, with the jobs loaded and the usage-tracker fix preserved.
+  - The iPhone stale-cache lesson was folded into the dashboard usage-tracker skill, turning a one-off bug into reusable guidance.
+  - The mobile-responsive lesson was also captured into a reusable skill, which should make the next round of fixes faster and less fragile.
+
+- What slipped and why:
+  - The log never captured a formal next-action list or blockers, so there is no clear evidence that the broader planned work was finished.
+  - The day stayed focused on fixes and skill updates, which likely crowded out higher-level planning and follow-through.
+
+- Carry-forward priorities for tomorrow:
+  - Rebuild the top-3 action list first so the day starts with concrete priorities instead of another reactive scramble.
+  - Pick up the LinkedIn project once the operational cleanup is stable.
+  - Verify the dashboard fix on mobile and confirm the stale-cache issue is actually gone, not just politely hiding.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260410_200007_6b876d
+
+Session:        20260410_200007_6b876d
+Duration:       36s
+Messages:       8 (1 user, 6 tool calls)

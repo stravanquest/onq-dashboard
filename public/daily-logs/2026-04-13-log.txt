@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-13
+Day: Monday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: q. it has been a bad day already. how about you are you healthy. and did your cron jobs run | no. lets wait until 8:15 am | [The user sent an image~ Here's what I can see: The image shows a dark-themed transaction history/list inte... Completed: Done | I updated the McDuck finance skill with the workflow we just used | Updated the mcduck-finance skill with the Ledger theft and wallet-migration audit workflow
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: [The user sent an image~ Here's what I can see: This image is a smartphone screenshot of the Solscan websit... | yes do that and how are we with Byterover and usage today? | can we fix that Completed: Done | I’m going to tighten the note into a cleaner McDuck reference and check ByteRover status plus today’s usage... | I’ll fix the missing live usage state if the codebase still expects it
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Q. I keep getting this ⏱️ Agent inactive for 30 min — no tool calls or API responses. Last activity: API ca... | [The user sent an image~ Here's what I can see: This image is a smartphone screenshot of the Solscan websit... | yes do that and how are we with Byterover and usage today? Completed: Done | I’m going to tighten the note into a cleaner McDuck reference and check ByteRover status plus today’s usage... | I’ll fix the missing live usage state if the codebase still expects it
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Q. I keep getting this ⏱️ Agent inactive for 30 min — no tool calls or API responses. Last activity: API ca... | [CONTEXT COMPACTION] Earlier turns in this conversation were compacted to save context space. The summary b... | yes make it a skill. and question. how often are we suppose to write log files and Obsidian files and has t... Completed: Done | I’ve got the cadence and the live state | Good news confirmed
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

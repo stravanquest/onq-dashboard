@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-11
+Day: Saturday
+1) DONE (what got done)
+- Saved the Ledger intake form note to Obsidian and the daily log so it is ready for computer time.
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | The duel gate way issue Completed: Updated the cron-catchup-guards skill with the useful bit we learned: in this environment the reliable inte...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | We made them permanent. Please check memories we had them all ready Completed: Done on the dashboard side | Done | Updated the backup healthcheck skill with two lessons we learned the hard way: - If you create or edit a no...
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | foot Completed: Done on the dashboard side | Done | Updated the backup healthcheck skill with two lessons we learned the hard way: - If you create or edit a no...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Yes. And this seems to happen a lot. How do we prevent | No I meant Here's what I can piece together: The gateway has a problem -- there are two instances running: ... | foot Completed: Done | Updated a relevant skill: todoist-cli-workarounds | Done on the dashboard side
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
