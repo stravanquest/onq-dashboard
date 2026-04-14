@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T19:41:20-04:00",
+  "updated_at": "2026-04-13T22:19:52-04:00",
   "source": "/Users/visualriot/.hermes/cron/jobs.json",
   "counts": {
     "total": 14,
@@ -19,9 +19,9 @@
       "schedule_display": "every 15m",
       "enabled": true,
       "last_status": "ok",
-      "last_run_at": "2026-04-13T19:39:56.081957-04:00",
-      "next_run_at": "2026-04-13T19:54:56.081957-04:00",
-      "repeat_completed": 848,
+      "last_run_at": "2026-04-13T22:15:02.241270-04:00",
+      "next_run_at": "2026-04-13T22:30:02.241270-04:00",
+      "repeat_completed": 858,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -29,9 +29,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 14m",
-      "last_run_relative": "1m ago",
-      "next_run_relative": "in 14m"
+      "detail": "next in 10m",
+      "last_run_relative": "5m ago",
+      "next_run_relative": "in 10m"
     },
     {
       "id": "73db959ac68a",
@@ -51,9 +51,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 12h",
-      "last_run_relative": "11h ago",
-      "next_run_relative": "in 12h"
+      "detail": "next in 9h",
+      "last_run_relative": "14h ago",
+      "next_run_relative": "in 9h"
     },
     {
       "id": "c1307bf44b10",
@@ -68,9 +68,9 @@
       "repeat_completed": 0,
       "deliver": "origin",
       "origin": null,
-      "detail": "next in 12h",
+      "detail": "next in 9h",
       "last_run_relative": "n/a",
-      "next_run_relative": "in 12h"
+      "next_run_relative": "in 9h"
     },
     {
       "id": "8d10ac0d182f",
@@ -85,9 +85,9 @@
       "repeat_completed": 0,
       "deliver": "origin",
       "origin": null,
-      "detail": "next in 12h",
+      "detail": "next in 9h",
       "last_run_relative": "n/a",
-      "next_run_relative": "in 12h"
+      "next_run_relative": "in 9h"
     },
     {
       "id": "c27b61e71d6f",
@@ -97,14 +97,14 @@
       "schedule_display": "20 8 * * *",
       "enabled": true,
       "last_status": "ok",
-      "last_run_at": "2026-04-13T18:40:18.933298-04:00",
+      "last_run_at": "2026-04-13T22:18:01.055336-04:00",
       "next_run_at": "2026-04-14T08:20:00-04:00",
-      "repeat_completed": 1,
+      "repeat_completed": 2,
       "deliver": "origin",
       "origin": null,
-      "detail": "next in 12h",
-      "last_run_relative": "1h ago",
-      "next_run_relative": "in 12h"
+      "detail": "next in 10h",
+      "last_run_relative": "2m ago",
+      "next_run_relative": "in 10h"
     },
     {
       "id": "58505980c04e",
@@ -124,9 +124,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 12h",
-      "last_run_relative": "11h ago",
-      "next_run_relative": "in 12h"
+      "detail": "next in 10h",
+      "last_run_relative": "13h ago",
+      "next_run_relative": "in 10h"
     },
     {
       "id": "eac4cb728daa",
@@ -146,9 +146,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 12h",
-      "last_run_relative": "11h ago",
-      "next_run_relative": "in 12h"
+      "detail": "next in 10h",
+      "last_run_relative": "13h ago",
+      "next_run_relative": "in 10h"
     },
     {
       "id": "43d13c450fbd",
@@ -163,9 +163,9 @@
       "repeat_completed": 0,
       "deliver": "email",
       "origin": null,
-      "detail": "next in 14h",
+      "detail": "next in 12h",
       "last_run_relative": "n/a",
-      "next_run_relative": "in 14h"
+      "next_run_relative": "in 12h"
     },
     {
       "id": "32512d4d79af",
@@ -185,9 +185,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 17h",
-      "last_run_relative": "1h ago",
-      "next_run_relative": "in 17h"
+      "detail": "next in 14h",
+      "last_run_relative": "4h ago",
+      "next_run_relative": "in 14h"
     },
     {
       "id": "2cc433006d91",
@@ -207,9 +207,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 21h",
-      "last_run_relative": "2h ago",
-      "next_run_relative": "in 21h"
+      "detail": "next in 18h",
+      "last_run_relative": "5h ago",
+      "next_run_relative": "in 18h"
     },
     {
       "id": "01efc257403a",
@@ -229,9 +229,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 23h",
-      "last_run_relative": "50m ago",
-      "next_run_relative": "in 23h"
+      "detail": "next in 20h",
+      "last_run_relative": "3h ago",
+      "next_run_relative": "in 20h"
     },
     {
       "id": "0923cf6e53f8",
@@ -252,7 +252,7 @@
         "thread_id": null
       },
       "detail": "next in 2d",
-      "last_run_relative": "3h ago",
+      "last_run_relative": "6h ago",
       "next_run_relative": "in 2d"
     },
     {
@@ -291,7 +291,7 @@
       "deliver": "origin",
       "origin": null,
       "detail": "next in 5d",
-      "last_run_relative": "3h ago",
+      "last_run_relative": "6h ago",
       "next_run_relative": "in 5d"
     }
   ],

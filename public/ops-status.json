@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T19:41:20.526344",
+  "updated_at": "2026-04-13T22:19:52.001052",
   "gateway": {
     "status": "running",
     "home": "/Users/visualriot/.hermes",
@@ -39,47 +39,47 @@
   "launchd": {
     "com.onq.daily-synthesis": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.daily-synthesis"
     },
     "com.onq.essential-backup": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.essential-backup"
     },
     "com.onq.dailylog.cp0900": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.dailylog.cp0900"
     },
     "com.onq.dailylog.cp1200": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.dailylog.cp1200"
     },
     "com.onq.dailylog.cp1500": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.dailylog.cp1500"
     },
     "com.onq.dailylog.cp1930": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.dailylog.cp1930"
     },
     "com.onq.dailylog.bootstrap": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.dailylog.bootstrap"
     },
     "com.onq.doctorfix.daily": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 0,
       "label": "com.onq.doctorfix.daily"
     },
     "com.onq.arlanne-backup": {
       "pid": null,
-      "last_exit": null,
+      "last_exit": 1,
       "label": "com.onq.arlanne-backup"
     }
   },
