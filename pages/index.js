@@ -236,13 +236,15 @@ export default function Dashboard() {
   const overallStatus = useMemo(() => {
     const statuses = [];
     if (usageStateExists) statuses.push('ok'); else statuses.push('warning');
-    if (opsStatus?.gateway?.status === 'running') statuses.push('ok'); else statuses.push('warning');
+    if (opsStatus?.gateway?.onq?.status === 'running') statuses.push('ok'); else statuses.push('warning');
+    if (opsStatus?.gateway?.arlanne?.status === 'running') statuses.push('ok'); else statuses.push('warning');
     if (backupCards.length > 0) statuses.push(...backupCards.map((b) => b.data?.status || 'warning'));
     if (launchdJobs.some((job) => job.last_exit && job.last_exit !== 0)) statuses.push('warning');
     if ((cronCounts.overdue || 0) > 0 || (cronCounts.failed || 0) > 0) statuses.push('warning');
-    const rank = Math.min(...statuses.map(statusRank), 2);
-    if (rank === 0) return { label: 'Green', tone: 'ok', note: 'Core systems look healthy.' };
-    if (rank === 1) return { label: 'Yellow', tone: 'warning', note: 'Some items need attention.' };
+
+    const severity = Math.min(...statuses.map(statusRank), 2);
+    if (severity === 2) return { label: 'Green', tone: 'ok', note: 'Core systems look healthy.' };
+    if (severity === 1) return { label: 'Yellow', tone: 'warning', note: 'Some items need attention.' };
     return { label: 'Red', tone: 'critical', note: 'Something important is not healthy.' };
   }, [usageStateExists, opsStatus, backupCards, launchdJobs, cronCounts]);
 
@@ -253,6 +255,14 @@ export default function Dashboard() {
     const candidates = backupCards.flatMap(({ data }) => [data?.local_latest?.mtime, data?.dropbox_latest?.mtime]).filter(Boolean);
     if (candidates.length === 0) return null;
     return candidates.sort().slice(-1)[0];
+  }, [backupCards]);
+  const latestBackupLabel = useMemo(() => {
+    const candidates = backupCards.flatMap(({ data, label }) => [
+      data?.local_latest?.mtime ? { source: `${label} local`, mtime: data.local_latest.mtime } : null,
+      data?.dropbox_latest?.mtime ? { source: `${label} Dropbox`, mtime: data.dropbox_latest.mtime } : null,
+    ]).filter(Boolean);
+    if (candidates.length === 0) return null;
+    return candidates.sort((a, b) => String(a.mtime).localeCompare(String(b.mtime))).slice(-1)[0];
   }, [backupCards]);
   const executiveSummary = useMemo(() => {
     const healthyLaunchd = launchdJobs.filter((job) => job.last_exit === 0).length;
@@ -266,7 +276,7 @@ export default function Dashboard() {
       {
         label: 'Operational continuity',
         value: `${dailyLogs.length} logs • ${healthyLaunchd}/${launchdJobs.length || 0} healthy`,
-        detail: latestBackupTime ? `Latest backup ${formatRelativeAge(latestBackupTime)}` : 'Backup freshness unavailable',
+        detail: latestBackupTime ? `Latest backup ${formatTime(latestBackupTime)} (${formatRelativeAge(latestBackupTime)})` : 'Backup freshness unavailable',
       },
       {
         label: 'Model & usage',
@@ -445,8 +455,11 @@ export default function Dashboard() {
           <div style={ui.statusChip(statusRank(overallStatus.tone) === 0 ? 'ok' : overallStatus.tone)}>
             Overall: {overallStatus.label}
           </div>
-          <div style={ui.statusChip(opsStatus?.gateway?.status === 'running' ? 'ok' : 'warning')}>
-            Gateway: {opsStatus?.gateway?.status === 'running' ? 'running' : 'unknown'}
+          <div style={ui.statusChip(opsStatus?.gateway?.onq?.status === 'running' ? 'ok' : 'warning')}>
+            OnQ gateway: {opsStatus?.gateway?.onq?.status === 'running' ? `running${opsStatus.gateway.onq.pid ? ` (PID ${opsStatus.gateway.onq.pid})` : ''}` : 'unknown'}
+          </div>
+          <div style={ui.statusChip(opsStatus?.gateway?.arlanne?.status === 'running' ? 'ok' : 'warning')}>
+            Arlanne gateway: {opsStatus?.gateway?.arlanne?.status === 'running' ? `running${opsStatus.gateway.arlanne.pid ? ` (PID ${opsStatus.gateway.arlanne.pid})` : ''}` : 'unknown'}
           </div>
           <div style={ui.statusChip(usageStateExists ? 'ok' : 'warning')}>
             Usage state: {usageStateExists ? 'present' : 'missing'}
@@ -490,7 +503,8 @@ export default function Dashboard() {
           <div style={ui.card}>
             <div style={ui.cardTitle}>Health at a glance</div>
             <div style={ui.bigStat}>{overallStatus.label}</div>
-            <div style={ui.statRow}><span>Gateway</span><strong>{opsStatus?.gateway?.status === 'running' ? 'Running' : 'Unknown'}</strong></div>
+            <div style={ui.statRow}><span>OnQ gateway</span><strong>{opsStatus?.gateway?.onq?.status === 'running' ? `Running${opsStatus.gateway.onq.pid ? ` (PID ${opsStatus.gateway.onq.pid})` : ''}` : 'Unknown'}</strong></div>
+            <div style={ui.statRow}><span>Arlanne gateway</span><strong>{opsStatus?.gateway?.arlanne?.status === 'running' ? `Running${opsStatus.gateway.arlanne.pid ? ` (PID ${opsStatus.gateway.arlanne.pid})` : ''}` : 'Unknown'}</strong></div>
             <div style={ui.statRow}><span>Launchd jobs tracked</span><strong>{launchdJobs.length}</strong></div>
             <div style={ui.statRow}><span>Daily logs indexed</span><strong>{dailyLogs.length}</strong></div>
             <div style={ui.statRow}><span>Cron jobs tracked</span><strong>{cronCounts.total || 0}</strong></div>
@@ -556,18 +570,24 @@ export default function Dashboard() {
             {backupCards.length === 0 ? (
               <div style={ui.muted}>Backup data not indexed yet.</div>
             ) : (
-              backupCards.map(({ label, data }) => (
-                <div key={label} style={ui.backupBlock}>
-                  <div style={ui.barHead}>
-                    <span>{label}</span>
-                    <strong style={ui.statusText(data.status)}>{data.status || 'unknown'}</strong>
+              backupCards.map(({ label, data }) => {
+                const latestMtime = [data.local_latest?.mtime, data.dropbox_latest?.mtime].filter(Boolean).sort().slice(-1)[0];
+                return (
+                  <div key={label} style={ui.backupBlock}>
+                    <div style={ui.barHead}>
+                      <span>{label}</span>
+                      <strong style={ui.statusText(data.status)}>{data.status || 'unknown'}</strong>
+                    </div>
+                    <div style={ui.bigText}>{data.local_latest?.name || data.dropbox_latest?.name || 'none'}</div>
+                    <div style={ui.muted}>Latest backup: {latestMtime ? `${formatTime(latestMtime)} • ${formatRelativeAge(latestMtime)}` : 'n/a'}</div>
+                    <div style={ui.muted}>Local: {data.local_latest?.name || 'none'}</div>
+                    <div style={ui.muted}>Dropbox: {data.dropbox_latest?.name || 'none'}</div>
                   </div>
-                  <div style={ui.muted}>Local: {data.local_latest?.name || 'none'}</div>
-                  <div style={ui.muted}>Dropbox: {data.dropbox_latest?.name || 'none'}</div>
-                </div>
-              ))
+                );
+              })
             )}
             {opsStatus?.updated_at ? <div style={ui.muted}>Indexed: {formatTime(opsStatus.updated_at)}</div> : null}
+            {latestBackupTime ? <div style={ui.muted}>Latest backup time: {formatTime(latestBackupTime)} • age {formatRelativeAge(latestBackupTime)}{latestBackupLabel ? ` • source ${latestBackupLabel.source}` : ''}</div> : null}
           </div>
         </section>
 
@@ -698,7 +718,8 @@ export default function Dashboard() {
           <div style={ui.cardWide}>
             <div style={ui.cardTitle}>Operational summary</div>
             <div style={ui.summaryList}>
-              <div style={ui.statRow}><span>Gateway</span><strong>{opsStatus?.gateway?.status === 'running' ? `Running (PID ${opsStatus.gateway.pid})` : 'Unknown'}</strong></div>
+              <div style={ui.statRow}><span>OnQ gateway</span><strong>{opsStatus?.gateway?.onq?.status === 'running' ? `Running (PID ${opsStatus.gateway.onq.pid})` : 'Unknown'}</strong></div>
+              <div style={ui.statRow}><span>Arlanne gateway</span><strong>{opsStatus?.gateway?.arlanne?.status === 'running' ? `Running (PID ${opsStatus.gateway.arlanne.pid})` : 'Unknown'}</strong></div>
               <div style={ui.statRow}><span>Launchd backups</span><strong>{launchdJobs.filter((job) => job.label.includes('backup')).length}</strong></div>
               <div style={ui.statRow}><span>Logs</span><strong>{dailyLogs.length > 0 ? 'Indexed' : 'Missing'}</strong></div>
               <div style={ui.statRow}><span>Usage state</span><strong>{usageStateExists ? 'Present' : 'Missing'}</strong></div>

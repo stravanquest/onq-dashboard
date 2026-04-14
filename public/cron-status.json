@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T22:33:51-04:00",
+  "updated_at": "2026-04-13T22:35:50-04:00",
   "source": "/Users/visualriot/.hermes/cron/jobs.json",
   "counts": {
     "total": 14,
@@ -29,9 +29,9 @@
         "chat_name": "C Inman",
         "thread_id": null
       },
-      "detail": "next in 11m",
-      "last_run_relative": "4m ago",
-      "next_run_relative": "in 11m"
+      "detail": "next in 9m",
+      "last_run_relative": "6m ago",
+      "next_run_relative": "in 9m"
     },
     {
       "id": "73db959ac68a",
@@ -103,7 +103,7 @@
       "deliver": "origin",
       "origin": null,
       "detail": "next in 9h",
-      "last_run_relative": "16m ago",
+      "last_run_relative": "18m ago",
       "next_run_relative": "in 9h"
     },
     {
