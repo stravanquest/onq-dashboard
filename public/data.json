@@ -37,6 +37,6 @@
     "arlanne": true,
     "openclaw": true
   },
-  "updated": "2026-04-13T22:29:04.922558",
+  "updated": "2026-04-13T22:30:43.599035",
   "note": "Legacy compatibility file. Canonical dashboard data lives in usage.json and model-info.json."
 }

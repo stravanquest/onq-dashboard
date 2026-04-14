@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T22:29:04.420180",
+  "updated_at": "2026-04-13T22:30:43.067370",
   "gateway": {
     "status": "running",
     "home": "/Users/visualriot/.hermes",
@@ -79,7 +79,7 @@
     },
     "com.onq.arlanne-backup": {
       "pid": null,
-      "last_exit": 1,
+      "last_exit": 0,
       "label": "com.onq.arlanne-backup"
     }
   },
@@ -105,16 +105,16 @@
       "local_root": "/Users/visualriot/Arlanne_backup",
       "dropbox_root": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/arlanne",
       "local_latest": {
-        "path": "/Users/visualriot/Arlanne_backup/arlanne_essential_20260413_222852.tar.gz",
-        "name": "arlanne_essential_20260413_222852.tar.gz",
-        "mtime": "2026-04-13T22:28:54.405046",
-        "size": 7189196
+        "path": "/Users/visualriot/Arlanne_backup/arlanne_essential_20260413_223028.tar.gz",
+        "name": "arlanne_essential_20260413_223028.tar.gz",
+        "mtime": "2026-04-13T22:30:29.660150",
+        "size": 7189198
       },
       "dropbox_latest": {
-        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/arlanne/arlanne_essential_20260413_222852.tar.gz",
-        "name": "arlanne_essential_20260413_222852.tar.gz",
-        "mtime": "2026-04-13T22:28:54.418498",
-        "size": 7189196
+        "path": "/Volumes/DATA/Dropbox (Personal)/hermes/from Onquest/backups/arlanne/arlanne_essential_20260413_223028.tar.gz",
+        "name": "arlanne_essential_20260413_223028.tar.gz",
+        "mtime": "2026-04-13T22:30:29.670191",
+        "size": 7189198
       },
       "status": "ok"
     }
