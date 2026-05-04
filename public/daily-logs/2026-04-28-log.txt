@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-28
+Day: Tuesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: [SYSTEM: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically deliv... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... | Q. Good morning. Completed: Skill updated with three critical experiential findings from this session: 1 | Done | Updated a skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Q. Good morning. | We need to revisit the cron jobs and your email rules. And Stravan.quest @gmail.com. And write appeal. And ... | yes do. —- Save the Stravan.quest information as seperate. we will have it back next month or so. so save b... Completed: Done | Audited the live Hermes email/config surface and found the highest-priority lane-mixing files below | Yes, the Fastmail auth issue is fixed and verified
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Q. Good morning. | We need to revisit the cron jobs and your email rules. And Stravan.quest @gmail.com. And write appeal. And ... | [Replying to: "/stop P lease fix this also your loop breaker did not kick in The loop breaker is important ... Completed: Done | Already updated the relevant skill: loop-breaker-checkpoint | Updated a relevant skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Q. Good morning. | We need to revisit the cron jobs and your email rules. And Stravan.quest @gmail.com. And write appeal. And ... | I think it would be via web. I really don’t know. Completed: Updated the existing skill | Done | Updated the reusable cleanup skill
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

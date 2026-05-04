@@ -1,0 +1,166 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-17
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Is smartpmp up too | Restart smartpmp. And what did the new update add. Do you have a manus skill or other external memory service | On for you. Is byterover working after the update. A lot of sites say it gets broken especially paths. We s... Completed: Done | Updated | Updated the obsidian skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | I just got this from ebay. it says sandbox App ID (Client ID) CInman-OnQuest-SBX-06c1eb9bb-7e02cc83 User To... Completed: Fixed | I’m running the same 6-coin basket against live eBay production now | The first pass shows the API is live, but search is noisy
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | 6 yes all like American express. 7 all as business deign and print Completed: Saved and updated | Done | I found a path quirk: the Dropbox folder name exists in the live tree but not as a writable directory handl...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | yes email it to me so I can see. and save it to all the places once I tell you it is fine Also Q. I want to... Completed: I found the likely culprit: the live SQLite state file | Done | I’m checking the live env and the loader path before I change anything
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭──────────── Hermes Agent v0.10.0 (2026.4.16) · upstream 64b35471 ────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260417_200013_a2d584  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   communication: linkedin-package            │
+│                                   creative: architecture-diagram,            │
+│                                   ascii-art, ascii-video, b...               │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-env-fallback-resilien...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: brokerage-position-extraction,    │
+│                                   ebay-coin-roster...                        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: api-key-display-limitation,       │
+│                                   api-key-research-an...                     │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, byterover...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-backup-and-vault-archiving,       │
+│                                   onq-permanent-s...                         │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   ebay-production-coin-verifi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 175 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 263 commits behind — run hermes update   │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-17-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+  ┊ 📖 read      /Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-17-log.txt  1.7s
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+    End-of-day synthesis
+    - What moved forward most:
+      - SmartPMP got immediate attention and the Obsidian skill was updated, while ByteRover path handling was checked after the update concern.
+      - The eBay production API was verified as live against the 6-coin basket, which moved the production-side test out of sandbox territory.
+      - Design & Print classification work advanced and the Dropbox path quirk was identified, so the bookkeeping pipeline is closer to being reliable again.
+    - What slipped and why:
+      - The live SQLite state issue was still being investigated at the end of the day, so the deeper DeepSeek or loader fix was not finished yet.
+      - The eBay search results were still noisy, so validation was underway but not clean enough to call fully done.
+    - Carry-forward priorities for tomorrow:
+      - Finish isolating the live SQLite state file and confirm the correct loader path before making any changes.
+      - Clean up the noisy eBay production search behavior and verify the 6-coin basket returns usable results.
+      - Resolve the Dropbox writable-path issue so Obsidian and file saves land in the right place without friction.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260417_200013_a2d584
+
+Session:        20260417_200013_a2d584
+Duration:       23s
+Messages:       4 (1 user, 2 tool calls)

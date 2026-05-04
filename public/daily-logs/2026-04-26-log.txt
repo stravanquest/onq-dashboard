@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-26
+Day: Sunday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: You back. And all good ? | Nothing yet. I am reading your reports. Hey can we kick off the linked in writing packages now. A little ea... | Great email all to me. Chris Visuslriot Completed: Done | Updated the hermes-agent skill | Updated the onq-morning-cron-audit skill with the useful bits from this run: - distinguish not yet due from...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: You back. And all good ? | Nothing yet. I am reading your reports. Hey can we kick off the linked in writing packages now. A little ea... | [System note: Your previous turn was interrupted before you could process the last tool result(s). The conv... Completed: Done | Fixed | Saved and updated the reusable skills
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: You back. And all good ? | Nothing yet. I am reading your reports. Hey can we kick off the linked in writing packages now. A little ea... | could it be the port ? Completed: Updated the relevant skill: openclaw-model-hardening | Saved and updated the relevant skills | Done
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: You back. And all good ? | Nothing yet. I am reading your reports. Hey can we kick off the linked in writing packages now. A little ea... | [System note: Your previous turn was interrupted before you could process the last tool result(s). The conv... Completed: Fixed | Done | I’m checking the live Stravan config so I can give you the actual settings, not a bedtime story
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

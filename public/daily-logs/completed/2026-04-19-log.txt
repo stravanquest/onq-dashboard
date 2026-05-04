@@ -1,0 +1,170 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-19
+Day: Sunday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | Unsupported document type '.csv'. Supported types: .docx, .log, .md, .pdf, .pptx, .txt, .xlsx, .zip | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Updated the himalaya skill | Now let me run the operational smoke test to check OnQ health status: | Good, the ByteRover vc status is actually working
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok thanks Completed: Updated the coin-collection-appraisal skill with a fresh clean-room estimate mode | Confirmed | Done
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok thanks Completed: Done | Updated the coin-collection-appraisal skill with a fresh clean-room estimate mode | Confirmed
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok. did you fire off the cron job linked in and did you make sure that all of the cron jobs fire and for GO... Completed: Done | Updated the onq-operational-smoke-test skill | Short answer: not forever in the cosmic sense, but the specific DeepSeek key problem is fixed right now
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 08:34
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭──────────── Hermes Agent v0.10.0 (2026.4.16) · upstream 73d0b083 ────────────╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260419_200014_847254  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   communication: linkedin-package            │
+│                                   creative: architecture-diagram,            │
+│                                   ascii-art, ascii-video, b...               │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-env-fallback-resilien...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: brokerage-position-extraction,    │
+│                                   ebay-coin-roster...                        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: api-key-display-limitation,       │
+│                                   api-key-research-an...                     │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, byterover...                      │
+│                                   mlops-inference: ollama-model-triage       │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-backup-and-vault-archiving,       │
+│                                   onq-permanent-s...                         │
+│                                   productivity: church-qc-indesign,          │
+│                                   cloud-storage-evaluation, g...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   ebay-production-coin-verifi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 179 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 481 commits behind — run hermes update   │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-19-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+  ┊ 📚 skill     onq-daily-log-automation  0.2s
+  ┊ 📚 skill     onq-session-2026-04-09  0.2s
+  ┊ 📖 read      /Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-19-log.txt  1.7s
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+    End-of-day synthesis
+    - What moved forward most:
+      - You tightened two operational playbooks by updating the himalaya skill and the onq-operational-smoke-test skill, which reduces future friction when mail or health checks break.
+      - You also refreshed the coin-collection-appraisal workflow with a clean-room estimate mode and confirmed ByteRover vc status was working, so both research and platform verification got more reliable.
+    - What slipped and why:
+      - No clear user deliverable was marked as missed, but the day stayed in maintenance and verification mode, so broader planned work did not appear in the log.
+    - Carry-forward priorities for tomorrow:
+      - Run the operational smoke test end to end and confirm the critical jobs and gateways are actually firing, not just loaded.
+      - Finish any remaining DeepSeek and auth verification work so the “fixed right now” state is backed by a clean live check.
+      - Use the updated appraisal and smoke-test skills on the next real task so the new workflow gets exercised, not just saved.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260419_200014_847254
+
+Session:        20260419_200014_847254
+Duration:       38s
+Messages:       7 (1 user, 5 tool calls)

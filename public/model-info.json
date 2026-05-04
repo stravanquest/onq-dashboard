@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-04-13T22:35:49-04:00",
-  "current_model": "gpt-5.4-mini",
-  "provider": "openai-codex",
+  "updated_at": "2026-05-04T08:22:34-04:00",
+  "current_model": "unknown",
+  "provider": "deepseek",
   "fallbacks": [
-    "minimax/minimax-m2.7"
+    "minimax/minimax-m2.7",
+    "openai-codex/gpt-5.5"
   ],
   "window_hours": 8,
   "warning_threshold": 65,

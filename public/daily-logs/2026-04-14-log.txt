@@ -1,0 +1,50 @@
+=== ONQ SESSION LOG 2026-04-14 ===
+
+MODEL: minimax/minimax-m2.7 on openrouter — working confirmed
+
+SYSTEMS CHECK:
+- Terminal: PASS
+- File Write: PASS  
+- Todoist CLI: PASS (FIXED — Python wrapper now uses API directly)
+- Cron Snapshot: PASS
+- Obsidian Vault: PASS (iCloud path, writable)
+- Hermes Config: PASS
+- Skills: PASS (34 loaded)
+- Dropbox: PASS (at /Volumes/DATA/Dropbox (Personal))
+- Arlanne Backup: PASS
+
+PERMANENT FIXES APPLIED:
+1. Todoist `ti list` — Go binary was crashing with SIGSEGV on malformed label data.
+   FIX: ~/.local/bin/ti now points to ~/.hermes/scripts/ti_list (Python wrapper using REST API directly)
+   Symlink: /usr/local/bin/ti -> ~/.hermes/scripts/ti_list
+   Skill updated: todoist-cli-workarounds
+
+2. Obsidian vault path — corrected to iCloud path (writable):
+   ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/OnQ/
+
+3. Dropbox path — corrected to actual location:
+   /Volumes/DATA/Dropbox (Personal)
+   Note: ~/Dropbox symlink is BROKEN — do NOT use
+
+4. Session log — written to Obsidian AND Dropbox
+
+BANK DATA WORK:
+- Design & Print Inc: 114 txns, Jan 2–Apr 1, 2026, $9,808.92 total outflows
+- Classifications confirmed: PUBLIX=Groceries, NIC*-DOS=FL State corp filing fees
+- $0.00 entries are credits/refunds (money in, stored as $0)
+
+MEMORY UPDATED:
+- Bank tx categorization rules
+- Dropbox actual path
+- Obsidian vault path
+- Todoist fix documented in skill
+
+SMOKE TEST: PASS
+
+TODO (low priority — not blocking):
+- ~/Dropbox symlink is broken (points to non-existent path)
+  Dropbox itself is fine, just the symlink. Fix if needed.
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: We are back up on Gpt ? | it gave an error saying we are on mini-max | can you check Completed: Sherlock didn't write a file — he ran the research live and handed me the summary | Both files confirmed, identical at 20,827 bytes each | All three checks done
+

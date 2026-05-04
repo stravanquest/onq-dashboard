@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-24
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Onq Remind me Deepseek v4. And OpenAI 5.5. Later. And let’s look at the things you and you and I should do ... | Remind me about 5.5 and Deepseek around 11:39 | I’d like to update open claw and get its basic set up. I d like to see the mail triage at least started. I’... Completed: Done
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Onq Remind me Deepseek v4. And OpenAI 5.5. Later. And let’s look at the things you and you and I should do ... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Yes reply to the business opportunity following out rules and then Ues I want youu to clean it up much more... Completed: Done, and saved | Done | Updated the existing fastmail-mailbox-triage skill
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Q you were running for over ½ hour what were you doing ? | I just had to restart your gateway | I can imagine what was doing it Completed: Done | Here’s the clean status, no fluff | Done, and saved
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Q you were running for over ½ hour what were you doing ? | I just had to restart your gateway | Q. Add get Astro builder to our discussion list. For doing the websites. Can you use it. Do you know it. Go... Completed: Done | Here’s the clean status, no fluff | Done, and saved
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

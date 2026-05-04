@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-29
+Day: Wednesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Question. I want to know about google workspace. What it offers. Costs. And now would could use it. Also th... | ok. I am in dropbox whats next? | OK. DROPBOX API is HUGE Completed: Done | Updated the relevant skill: api-key-research-and-verification | Here’s the clean state:  What got done - The session was logged
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Question. I want to know about google workspace. What it offers. Costs. And now would could use it. Also th... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Done | Updated an existing skill: send-email-task | I’m checking the live job state and the recent runs, because “three in a row” usually means either overlapp...
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Question. I want to know about google workspace. What it offers. Costs. And now would could use it. Also th... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Done | Updated the cleanup skill | I’m checking the live Dropbox path on disk, because the folder is probably there and just not where you wer...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: hello | I want to do the airtable make a note of it for tomorrow. and I want to put up the website tomorrow and can... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Done | Created a reusable skill: - hermes-slack-message-send-workflow It captures the Slack-send path we just had ... | Updated the cron-status-triage skill
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

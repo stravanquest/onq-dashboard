@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-30
+Day: Thursday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Did your backup run | Fix these issues please What I'm going to do next - 2 real issues to flag: 1. OnQ Daily Smoke Test missed t... | [Your active task list was preserved across context compression] - [ ] slack-usage-review. Talk through how... Completed: Fixed the concrete scheduler issue I found: - 8ed203f41c0f (OnQ Email Check (morning)) was paused | Updated cron-status-triage | Updated the fastmail-jmap-email-triage skill with what the trial-and-error session taught: - Mailboxes refe...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: is your oauth openai ok | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | So 1. send me the files. I have a secure vault drive I am going to put it on so yes send me the unredacted ... Completed: Done on the auth side | Done | Done — I inspected the live cron wiring and the scheduler behavior
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: is your oauth openai ok | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | the path for validation is visualcoop. but here is the validation code Completed: Done | Done, with one important caveat | Updated the skill library
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: is your oauth openai ok | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | You've reached the maximum number of tool-calling iterations allowed. Please provide a final response summa... Completed: Done | Updated the skill library | I have the live checks
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

@@ -1,0 +1,164 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-16
+Day: Thursday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Good morning | What were we supposed to work on today | Send me the report that did not get emailed.
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Good morning | What were we supposed to work on today | Send me the report that did not get emailed. Completed: Done | Here is the status on both: Todoist sweep: Yes, the morning nudge ran at 8:15 AM today with status OK | Here's the cleanup summary: DONE: - Purged 1,006 old usage tracker output files (kept 7 latest) - Compresse...
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: ok. you good | make sure all of your crons are not too many calls we do not want to burn all of the oauth tokens like before | change useage tracker to every 6 hours. Completed: Done | Let me first compile the full updated list by reading all the secret files, then send it via email to bypas... | Email sent and memory updated
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: ok. you good | make sure all of your crons are not too many calls we do not want to burn all of the oauth tokens like before | change useage tracker to every 6 hours. Completed: Done | Updated one skill | Saved and updated
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭─ Hermes Agent v0.8.0 (2026.4.8) · upstream 764536b6 · local ffeeae57 (+1 car─╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260416_200005_cfc6a8  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   communication: linkedin-package            │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-assembl...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-script-path-allowlist...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: brokerage-position-extraction,    │
+│                                   ledger-amex-inta...                        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: api-key-display-limitation,       │
+│                                   api-key-research-an...                     │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, byterover...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-permanent-soul-backup,            │
+│                                   onq-session-2026-04-09                     │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   hermes-memory-provider-revi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 166 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 556 commits behind — run hermes update   │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-16-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+End-of-day synthesis
+- What moved forward most:
+  - The usage-tracker cleanup was pushed through hard, including purging 1,006 old output files and keeping only the latest seven to cut noise.
+  - Cron pressure was actively reduced by changing the usage tracker cadence to every 6 hours to avoid burning OAuth tokens.
+  - The missing report request was resolved, then email and memory were updated, and one skill was saved/refreshed at the 19:30 checkpoint.
+- What slipped and why:
+  - The top-level DONE, DECISIONS, and NEXT ACTIONS sections stayed empty because the day was spent reacting to checkpoint-driven cleanup and cron tuning instead of following a prewritten task list.
+- Carry-forward priorities for tomorrow:
+  - Verify the new 6-hour usage-tracker schedule is actually behaving and not creating extra token churn.
+  - Rebuild the day’s missing top-level action list from the checkpoint work so the log reflects the real outcomes, not just the auto-captures.
+  - Confirm any remaining report or follow-up items are closed out cleanly before the next checkpoint cycle.
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Resume this session with:
+  hermes --resume 20260416_200005_cfc6a8
+
+Session:        20260416_200005_cfc6a8
+Duration:       27s
+Messages:       5 (1 user, 3 tool calls)

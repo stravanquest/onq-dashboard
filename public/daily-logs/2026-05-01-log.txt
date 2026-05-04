@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-05-01
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Also I am thinking about getting remotion for video What do you think. | Yes do. | yes fix. Q. Completed: Done | Updated
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Also I am thinking about getting remotion for video What do you think. | Yes do. | Review the conversation above and update the skill library. Be ACTIVE — most sessions produce at least one ... Completed: Done | Updated the skill library | Fixed
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: and Stravan soul and user/md got erased or something. can we check and replace if needed. and checks its sk... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | obsidian notes not synched to drop box they are way off? Completed: Done | I’m checking the two live vaults side by side and measuring drift, not assuming the UI is telling the truth | I’m checking the live task state first
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically de... | Review the conversation above and update the skill library. Be ACTIVE — most sessions produce at least one ... | You've reached the maximum number of tool-calling iterations allowed. Please provide a final response summa... Completed: I triggered the health summary to run it live | Skills updated this session: Updated: onq-operational-smoke-test (class-level, already loaded) Three patche... | Now let me check the live email triage surface and run key checks:
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

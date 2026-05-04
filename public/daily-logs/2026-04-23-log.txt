@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-23
+Day: Thursday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: good morning. we need to push off our discussion until around 10:30. i need to go to home depot | hey Q. it says that we are 418 commets behind. but I dont want to update you. we finally got your memory an... | and why is Openai 5.4 our primary failing again? Completed: Fast-forward pull succeeded | Done | Done, and here’s the honest state:  I changed - I fixed the Codex login flow so it no longer depends on the...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: tell me about Nous Portal | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Done | Updated the skill | Because the live process didn’t inherit it
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: can we talk about your inbox items now | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | go ahead and do 2 Completed: Done | Updated a relevant skill: todoist-cli-workarounds | I updated the Packy skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: [SYSTEM: The user has invoked the "sherlock-research" skill, indicating they want you to follow its instruc... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... | can we talk about your inbox items now Completed: AI Agent Systems Weekly Intelligence Report - April 23, 2026 Status: COMPLETE Email delivered to: c@cinman | Updated the himalaya skill with a key experiential finding from this session | Done
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-27
+Day: Monday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Please email me the new shopping list. And send me everything via email the you understand about our email ... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Done | Updated the fastmail-mailbox-triage skill | Updated a skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Please email me the new shopping list. And send me everything via email the you understand about our email ... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok. so I am going to paste what I asked openclaw gateway stop launchctl bootout gui/$(id -u) ~/Library/Laun... Completed: Done | Updated a relevant skill | I updated the relevant skill
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Please email me the new shopping list. And send me everything via email the you understand about our email ... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | yes. Id like to see your map of what goes where Completed: I’m checking the live VisualRiot mailbox layout first, then I’ll map it back to the filing rules so we’re n... | I’m pulling the live rules and recent messages now, then I’ll turn that into a real filing map instead of h... | Done
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Please email me the new shopping list. And send me everything via email the you understand about our email ... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | and Id like to try either  Hunyuan or J on packy. what do you think amba Instruct Completed: Done | Updated the reusable skill | Updated an existing skill, not creating a new one
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

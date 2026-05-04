@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-17
+Day: Friday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Is smartpmp up too | Restart smartpmp. And what did the new update add. Do you have a manus skill or other external memory service | On for you. Is byterover working after the update. A lot of sites say it gets broken especially paths. We s... Completed: Done | Updated | Updated the obsidian skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | I just got this from ebay. it says sandbox App ID (Client ID) CInman-OnQuest-SBX-06c1eb9bb-7e02cc83 User To... Completed: Fixed | I’m running the same 6-coin basket against live eBay production now | The first pass shows the API is live, but search is noisy
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | 6 yes all like American express. 7 all as business deign and print Completed: Saved and updated | Done | I found a path quirk: the Dropbox folder name exists in the live tree but not as a writable directory handl...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: hello | you were fixing deepseek. you have the api key we got the error ⚠️ Cron job 'OnQ Email Check (3x daily)' fa... | yes email it to me so I can see. and save it to all the places once I tell you it is fine Also Q. I want to... Completed: I found the likely culprit: the live SQLite state file | Done | I’m checking the live env and the loader path before I change anything
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

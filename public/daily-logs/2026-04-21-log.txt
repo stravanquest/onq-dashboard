@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-21
+Day: Tuesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Good morning. Did your cron jobs run. Like your backups. Can you also run smoke test | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Put quill together in a logical fashion and email me. I will go over Completed: Done | Updated the skill | Updated a relevant skill
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Good morning. Did your cron jobs run. Like your backups. Can you also run smoke test | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok. we are still fine tuning ledger. here is addition things HERMES CPA REPORTING ADDENDUM Use these rules ... Completed: Done | Saved and updated the ledger-ops skill | Updated the ledger-ops skill
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Good morning. Did your cron jobs run. Like your backups. Can you also run smoke test | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Ok. Hold that what else might you build as a business. Maybe 2 other ideas. But I like that one as a start Completed: Done | Updated the ledger-ops skill | Saved and updated the ledger-ops skill
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Good morning. Did your cron jobs run. Like your backups. Can you also run smoke test | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | Ok. Hold that what else might you build as a business. Maybe 2 other ideas. But I like that one as a start Completed: Done | Saved and updated a reusable skill | Updated the ledger-ops skill
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

@@ -1,0 +1,58 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-22
+Day: Wednesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: hello Q is all good now you were I’m checking the cron jobs and the fallback/provider setup now so I can fi... | yes please do but. if the gateway needs to be restarted. tell me and I will do it seems to crash ytou evert... | why openrouter. we had this issue a few days ago and it was either wrong model or you lost the api key. I c... Completed: I checked it live | I'll check the live credential selection and the failing job configs, then tell you what is actually wrong ... | I’ve confirmed the config side
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: hello Q is all good now you were I’m checking the cron jobs and the fallback/provider setup now so I can fi... | yes please do but. if the gateway needs to be restarted. tell me and I will do it seems to crash ytou evert... | Q. WTF. ⚠️ Provider authentication failed: No Codex credentials stored. Run hermes auth to authenticate. Ru... Completed: Let me get a live look at what's actually happening right now | I’m checking the live DeepSeek wiring and the current auth state, because this smells like a config path pr... | I’m checking whether DeepSeek itself is reachable right now, because that error can be a live-service failu...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: hello Q is all good now you were I’m checking the cron jobs and the fallback/provider setup now so I can fi... | yes please do but. if the gateway needs to be restarted. tell me and I will do it seems to crash ytou evert... | fix it how it should be and write in the appropiarte space in the About me folder and reindex and re link s... Completed: Index updated | Backup done | All done
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 18:52
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

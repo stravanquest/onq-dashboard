@@ -1,0 +1,58 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-20
+Day: Monday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Good morning. Did backups run | No. Did it write to iCloud too. ? | Check iCloud. We are supposed to write to iCloud as well. Completed: Done | Updated the existing onq-morning-cron-audit skill with the two useful lessons from this run: - Optional bac...
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: [Note: model was just switched from deepseek-chat to minimax/minimax-m2.7 via OpenRouter. Adjust your self-... | we will go back to open ai in 1 hour I will do no need for you to do anything please make sure that you are... | ok. so can you give me a list again. ok. so I want a complete list of everything that is labled Onquest. or... Completed: Done | All three updated | Live data confirmed
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: [Note: model was just switched from deepseek-chat to minimax/minimax-m2.7 via OpenRouter. Adjust your self-... | we will go back to open ai in 1 hour I will do no need for you to do anything please make sure that you are... | what changed. do you have additional memory providers? Completed: Done | All 9 plists confirmed in the backup | Here's what was done across the first 4 locations: LOCAL: Old hermes install deleted
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: are you back | Q budy I trust you please please please. I thought that we made a rule that you would just fix. and not ask... | Ok roll it up if that helps wait. 32 subagents. where did that come from and now look at the Q label stuff ... Completed: Done | Updated the Todoist skill | Updated todoist-cli-workarounds
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 18:10
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

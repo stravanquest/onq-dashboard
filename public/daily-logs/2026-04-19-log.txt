@@ -1,0 +1,58 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-19
+Day: Sunday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | Unsupported document type '.csv'. Supported types: .docx, .log, .md, .pdf, .pptx, .txt, .xlsx, .zip | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Updated the himalaya skill | Now let me run the operational smoke test to check OnQ health status: | Good, the ByteRover vc status is actually working
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok thanks Completed: Updated the coin-collection-appraisal skill with a fresh clean-room estimate mode | Confirmed | Done
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok thanks Completed: Done | Updated the coin-collection-appraisal skill with a fresh clean-room estimate mode | Confirmed
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Good morning Q I just emailed you a file that’s got an attachment of the queenless and the values that I ca... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | ok. did you fire off the cron job linked in and did you make sure that all of the cron jobs fire and for GO... Completed: Done | Updated the onq-operational-smoke-test skill | Short answer: not forever in the cosmic sense, but the specific DeepSeek key problem is fixed right now
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 08:34
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:

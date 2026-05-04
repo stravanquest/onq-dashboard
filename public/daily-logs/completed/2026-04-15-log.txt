@@ -1,0 +1,177 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-15
+Day: Wednesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: ok. so I got this report OnQ Morning Health Summary 1) Overall - Status: GREEN - Current time: Wed Apr 15 0... | [CONTEXT COMPACTION] Earlier turns in this conversation were compacted to save context space. The summary b... | ⚠️ Non-retryable error (HTTP 400) — trying fallback... so all is good Completed: Good, cron job updated | Fixed the cron job | Both skills updated: 1
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: ok. so I got this report OnQ Morning Health Summary 1) Overall - Status: GREEN - Current time: Wed Apr 15 0... | [CONTEXT COMPACTION] Earlier turns in this conversation were compacted to save context space. The summary b... | ⚠️ Non-retryable error (HTTP 400) — trying fallback... so all is good Completed: Good, cron job updated | Fixed the cron job | Both skills updated: 1
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: ok. so I got this report OnQ Morning Health Summary 1) Overall - Status: GREEN - Current time: Wed Apr 15 0... | [CONTEXT COMPACTION] Earlier turns in this conversation were compacted to save context space. The summary b... | ⚠️ Non-retryable error (HTTP 400) — trying fallback... so all is good Completed: Live gateway is running (PID 98172), it restarted at 11:10AM and picked up the patched config | Done | Here's my read on the cron schedule after the changes: The main offender is fixed — usage tracker at every ...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: ok. so I got this report OnQ Morning Health Summary 1) Overall - Status: GREEN - Current time: Wed Apr 15 0... | [CONTEXT COMPACTION] Earlier turns in this conversation were compacted to save context space. The summary b... | ⚠️ Non-retryable error (HTTP 400) — trying fallback... so all is good Completed: Live gateway is running (PID 98172), it restarted at 11:10AM and picked up the patched config | Done | Here's my read on the cron schedule after the changes: The main offender is fixed — usage tracker at every ...
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
+
+
+╭─ Hermes Agent v0.8.0 (2026.4.8) · upstream 9d9b4243 · local ffeeae57 (+1 car─╮
+│                                   Available Tools                            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⣀⣀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   browser: browser_back, browser_click, ...  │
+│  ⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣇⠸⣿⣿⠇⣸⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀   clarify: clarify                           │
+│  ⠀⢀⣠⣴⣶⠿⠋⣩⡿⣿⡿⠻⣿⡇⢠⡄⢸⣿⠟⢿⣿⢿⣍⠙⠿⣶⣦⣄⡀⠀   code_execution: execute_code               │
+│  ⠀⠀⠉⠉⠁⠶⠟⠋⠀⠉⠀⢀⣈⣁⡈⢁⣈⣁⡀⠀⠉⠀⠙⠻⠶⠈⠉⠉⠀⠀   cronjob: cronjob                           │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡿⠛⢁⡈⠛⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   delegation: delegate_task                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣦⣤⣈⠁⢠⣴⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   file: patch, read_file, search_files,      │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢿⣿⣦⡉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   write_file                                 │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣦⣈⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   homeassistant: ha_call_service,            │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⠦⠈⠙⠿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ha_get_state, ...                          │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣤⡈⠁⢤⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   image_gen: image_generate                  │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   (and 9 more toolsets...)                   │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠑⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠁⢰⡆⠈⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   MCP Servers                                │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠈⣡⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   agent_browser (stdio) — failed             │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              │
+│                                   Available Skills                           │
+│   gpt-5.4-mini · Nous Research    apple: apple-notes, apple-reminders,       │
+│         /Users/visualriot         findmy, imessage                           │
+│  Session: 20260415_200004_f2a19a  autonomous-ai-agents:                      │
+│                                   agent-deployment-audit, claude-code,       │
+│                                   codex, her...                              │
+│                                   communication: linkedin-package            │
+│                                   creative: ascii-art, ascii-video,          │
+│                                   book-manuscript-assembl...                 │
+│                                   data-science: jupyter-live-kernel          │
+│                                   devops: cron-catchup-guards,               │
+│                                   cron-script-path-allowlist...              │
+│                                   email: email-debugging, himalaya           │
+│                                   finance: brokerage-position-extraction,    │
+│                                   ledger-amex-inta...                        │
+│                                   gaming: minecraft-modpack-server,          │
+│                                   pokemon-player                             │
+│                                   general: coin-collection-appraisal,        │
+│                                   dogfood, models_open...                    │
+│                                   github: codebase-inspection, github-auth,  │
+│                                   github-code-r...                           │
+│                                   hermes-configuration:                      │
+│                                   hermes-email-delivery-fix,                 │
+│                                   hermes-fallback-prov...                    │
+│                                   leisure: find-nearby                       │
+│                                   mcp: mcporter, native-mcp                  │
+│                                   media: gif-search, heartmula, songsee,     │
+│                                   youtube-content                            │
+│                                   mlops: audiocraft-audio-generation,        │
+│                                   axolotl, byterover...                      │
+│                                   note-taking: obsidian                      │
+│                                   onq: onq-permanent-soul-backup,            │
+│                                   onq-session-2026-04-09                     │
+│                                   productivity: church-qc-indesign,          │
+│                                   google-workspace, indesign-...             │
+│                                   red-teaming: godmode                       │
+│                                   research: arxiv, blogwatcher,              │
+│                                   hermes-memory-provider-revi...             │
+│                                   smart-home: openhue                        │
+│                                   social-media: xitter                       │
+│                                   software-development: code-review, plan,   │
+│                                   requesting-code-review, suba...            │
+│                                   strategy: dante-critic                     │
+│                                                                              │
+│                                   28 tools · 158 skills · /help for          │
+│                                   commands                                   │
+│                                   ⚠ 425 commits behind — run hermes update   │
+│                                   to update                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Query: Review this OnQ daily log and generate the end-of-day synthesis section.
+Read the log at: 
+/Users/visualriot/onq-dashboard-full/public/daily-logs/2026-04-15-log.txt
+
+Generate a concise 3-part synthesis in this exact format (fill in the blanks):
+```
+End-of-day synthesis
+- What moved forward most:
+  (2-3 bullet points of the most significant work done today)
+- What slipped and why:
+  (anything that was planned but didn't happen, and why)
+- Carry-forward priorities for tomorrow:
+  (2-3 bullet points of top priorities for tomorrow)
+```
+
+Keep each bullet to one clear sentence. Be specific - not generic.
+Initializing agent...
+────────────────────────────────────────
+
+⚠️  API call failed (attempt 1/3): RateLimitError [HTTP 429]
+   🔌 Provider: openai-codex  Model: gpt-5.4-mini
+   🌐 Endpoint: https://chatgpt.com/backend-api/codex
+   📝 Error: HTTP 429: The usage limit has been reached
+   📋 Details: {'type': 'usage_limit_reached', 'message': 'The usage limit has been reached', 'plan_type': 'plus', 'resets_at': 1776358273, 'eligible_promo': None, 'resets_in_seconds': 60650}
+⚠️ Rate limited — switching to fallback provider...
+⏱️ Rate limit reached. Waiting 2.3557446330670375s before retry (attempt 2/3)...
+⚠️  API call failed (attempt 2/3): RateLimitError [HTTP 429]
+   🔌 Provider: openai-codex  Model: gpt-5.4-mini
+   🌐 Endpoint: https://chatgpt.com/backend-api/codex
+   📝 Error: HTTP 429: The usage limit has been reached
+   📋 Details: {'type': 'usage_limit_reached', 'message': 'The usage limit has been reached', 'plan_type': 'plus', 'resets_at': 1776358274, 'eligible_promo': None, 'resets_in_seconds': 60644}
+⏱️ Rate limit reached. Waiting 5.435083721034394s before retry (attempt 3/3)...
+⚠️  API call failed (attempt 3/3): RateLimitError [HTTP 429]
+   🔌 Provider: openai-codex  Model: gpt-5.4-mini
+   🌐 Endpoint: https://chatgpt.com/backend-api/codex
+   📝 Error: HTTP 429: The usage limit has been reached
+   📋 Details: {'type': 'usage_limit_reached', 'message': 'The usage limit has been reached', 'plan_type': 'plus', 'resets_at': 1776358273, 'eligible_promo': None, 'resets_in_seconds': 60634}
+⚠️ Max retries (3) exhausted — trying fallback...
+❌ Rate limited after 3 retries — HTTP 429: The usage limit has been reached
+   💀 Final error: HTTP 429: The usage limit has been reached
+ ─  ⚕ Hermes  ───────────────────────────────────────────────────────────────── 
+                                                                                
+   API call failed after 3 retries: HTTP 429: The usage limit has been          
+   reached                                                                      
+                                                                                
+ ────────────────────────────────────────────────────────────────────────────── 
+
+Resume this session with:
+  hermes --resume 20260415_200004_f2a19a
+
+Session:        20260415_200004_f2a19a
+Duration:       35s
+Messages:       1 (1 user, 0 tool calls)

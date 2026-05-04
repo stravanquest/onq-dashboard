@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-04-18
+Day: Saturday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: [SYSTEM: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically deliv... | You've reached the maximum number of tool-calling iterations allowed. Please provide a final response summa... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... Completed: Good, ops-status | Let me read the section around line 264 to see the status of the morning cron job: | Let me check the cron-status
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Do you have the ability to write to iCloud Drive? For example, if we created a folder in iCloud Drive just ... | I want you to take the ledger sheets that you worked on yesterday. and I need them now done by the month. a... | [System note: Your previous turn was interrupted before you could process the last tool result(s). The conv... Completed: Done | Fixed | Let me also check the Todoist daily review status and see if there are any pending tasks that need attention:
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: Do you have the ability to write to iCloud Drive? For example, if we created a folder in iCloud Drive just ... | I want you to take the ledger sheets that you worked on yesterday. and I need them now done by the month. a... | [System note: Your previous turn was interrupted before you could process the last tool result(s). The conv... Completed: Done | Live check done | Updated the ledger-ops skill with the key lesson from this run: - when Chris asks for monthly ledger report...
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: [SYSTEM: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically deliv... | Review the conversation above and consider saving or updating a skill if appropriate. Focus on: was a non-t... | Do you have the ability to write to iCloud Drive? For example, if we created a folder in iCloud Drive just ... Completed: Now let me check the current cron jobs and their status: | Looking at the conversation, I used a systematic approach to check cron job status that involved: 1 | Skill updated successfully
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
