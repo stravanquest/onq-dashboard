@@ -21,18 +21,30 @@ Day: Monday
 
 Checkpoint captures
 [09:00]
-- 
+- 09:00 checkpoint auto-capture User focus: what is your dns starts with 10.0.0 | no because I ssh into you | yes Completed: Delivery confirmed | Output confirmed | Now mark both completed tasks as Done in their files:
 
 [12:00]
-- 
+- 12:00 checkpoint auto-capture User focus: what is your dns starts with 10.0.0 | Ok. I like your plan for emailing to obsidian. lets try it but every 3-4 hours from 6:am util 8PM is enough... | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... Completed: Done, Chris | Done | Confirmed
 
 [15:00]
-- 
+- 15:00 checkpoint auto-capture User focus: what is your dns starts with 10.0.0 | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | let do proton pass Completed: Done | Good — password confirmed: 5r7x279t7c8q877m | The 30-day plan in Obsidian is pretty thin — just a status stub pointing to Q PLANs and personal goals
 
 [19:30]
-- 
+- 19:30 checkpoint auto-capture User focus: what is your dns starts with 10.0.0 | stravanquest/visualriot-website | [System note: Your previous turn was interrupted before you could process the last tool result(s). The conv... Completed: Understood — the old deployment files got into the vr-live worker too because I downloaded from GitHub afte... | All confirmed | No Pages project configured
 
 Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
 - Time:
   Event:
   Why it matters:

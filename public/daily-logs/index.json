@@ -1,7 +1,22 @@
 {
-  "updated_at": "2026-05-04T08:01:05-04:00",
+  "updated_at": "2026-05-07T08:55:05-04:00",
   "dropbox_folder_url": "https://www.dropbox.com/home/hermes/from%20Onquest/daily-logs",
   "entries": [
+    {
+      "date": "2026-05-07",
+      "title": "OnQ Daily Memory Log",
+      "path": "/daily-logs/2026-05-07-log.txt"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "OnQ Daily Memory Log",
+      "path": "/daily-logs/2026-05-06-log.txt"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "OnQ Daily Memory Log",
+      "path": "/daily-logs/2026-05-05-log.txt"
+    },
     {
       "date": "2026-05-04",
       "title": "OnQ Daily Memory Log",

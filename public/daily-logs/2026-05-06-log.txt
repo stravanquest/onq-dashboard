@@ -1,0 +1,55 @@
+OnQ Daily Memory Log
+Timezone: America/New_York
+Cadence: every active day, including weekends
+Checkpoints: 9:00 AM, 12:00 PM, 3:00 PM, 7:30 PM + any firm decision or created asset
+
+Date: 2026-05-06
+Day: Wednesday
+1) DONE (what got done)
+- 
+
+2) DECISIONS (firm calls made)
+- 
+
+3) NEXT ACTIONS (top 3)
+- 
+- 
+- 
+
+4) BLOCKERS / RISKS
+- 
+
+Checkpoint captures
+[09:00]
+- 09:00 checkpoint auto-capture User focus: [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically de... | Review the conversation above and update the skill library. Be ACTIVE — most sessions produce at least one ... | Go to LinkedIn and review any pending notifications, messages, connection requests, or post comments/respon... Completed: Hermes is updated safely | Done | OAuth confirmed working with gpt-5
+
+[12:00]
+- 12:00 checkpoint auto-capture User focus: Hi q thd oauth is healthy ? | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | no. i thik we are good. Write to your logs. lets do a backup complete to dropbox only right now leave all o... Completed: Done | Quick status: - I finished the aggressive snapshot cleanup | I’m checking the live cron state first so I can change the schedule without guessing at the task text
+
+[15:00]
+- 15:00 checkpoint auto-capture User focus: is there an issue with you on slack. is there a problem? | [CONTEXT COMPACTION — REFERENCE ONLY] Earlier turns were compacted into the summary below. This is a handof... | So es do Completed: Done on the local side | Updated the skill library | Updated
+
+[19:30]
+- 19:30 checkpoint auto-capture User focus: Ok. | So can. You tell me your blockers right now. So maybe we can solve some of them. The ones I saw were for no... | I like it. But how do we make it work. Do I ask you to bring in the board. ? You write a skill ? Completed: Done | I have a live create call in the debug trace | I’m looking for anything created at the exact time of the API call
+
+Decision/asset event captures (ad hoc)
+- Time: 19:30
+  Event: Checkpoint 19:30 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 15:00
+  Event: Checkpoint 15:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 12:00
+  Event: Checkpoint 12:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time: 09:00
+  Event: Checkpoint 09:00 session snapshot
+  Why it matters: Captures conversation context and milestones for recall.
+- Time:
+  Event:
+  Why it matters:
+
+End-of-day synthesis
+- What moved forward most:
+- What slipped and why:
+- Carry-forward priorities for tomorrow:
